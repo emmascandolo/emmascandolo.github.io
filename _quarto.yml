@@ -7,12 +7,15 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: maintenance.qmd
+        text: Research
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 
