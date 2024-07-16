@@ -7,12 +7,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: maintenance.qmd
+      - href: research.qmd
         text: Research
-
+    #foreground: "#393D3E"
+    #background: "#ECECEC"
+    search: false
 format:
   html:
-    theme: cosmo
+    theme:
+      - default
+      - custom.scss
     css: styles.css
     toc: true
     page-layout: full
