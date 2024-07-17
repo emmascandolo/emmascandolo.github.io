@@ -4,7 +4,7 @@ title: Research
 
 ::: {.grid .paper-entry}
 ::: {.g-col-6 .paper-title}
-Student Employment in England after the Maintenance Grant Removal
+[Student Employment in England after the Maintenance Grant Removal](papers/maintenance_grant.pdf)
 :::
 
 ::: {.g-col-6 .abstract}
