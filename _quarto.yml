@@ -9,6 +9,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: cv.qmd
+        text: CV
     #foreground: "#393D3E"
     #background: "#ECECEC"
     search: false

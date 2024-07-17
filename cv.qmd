@@ -1,0 +1,32 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    toc: true
+  pdf:
+    author: Ben Dahmen
+css: css/cv.css
+format-links: [pdf]
+---
+
+::: {.print-only .contact-block}
+b.a.dahmen\@lse.ac.uk
+:::
+
+## EDUCATION
+
+**PhD -- Economics** <br> *London School of Economics* [*Sep 2022 --- Present*]{.cvdate}
+
+::: print-only
+-   Research Interests: Public Economics, Labor Economics
+:::
+
+**MSc -- Economics** <br> *London School of Economics* [*Sep 2020 --- Jul 2021*]{.cvdate}
+
+**BSc -- Economics & Business Economics** <br> *Erasmus University Rotterdam* [*Sep 2016 --- Jul 2019*]{.cvdate}
+
+## WORK EXPERIENCE {style="page-break-before: always"}
+
+**Predoctoral Research Assistant Public Economics** <br> *London School of Economics* [*Jan 2020 -- June 2021*]{.cvdate}
+
+**Research Assistant in the Education, Labor and Pensions Sector** <br> *CPB Netherlands Bureau for Economic Policy Analysis* [*Sep 2019 -- Mar 2020*]{.cvdate}
