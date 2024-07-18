@@ -4,6 +4,9 @@ about:
   template: trestles
   image: img/profile_cropped.jpg
   links:
+    - icon: send
+      text: b.a.dahmen@lse.ac.uk
+      href: mailto:b.a.dahmen@lse.ac.uk
     - icon: globe
       text: LSE Page
       href: https://www.lse.ac.uk/economics/people/research-students/ben-dahmen
