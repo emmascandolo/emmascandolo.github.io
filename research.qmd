@@ -20,10 +20,32 @@ for (i in seq_len(nrow(papers))) {
     ":::{.paper-entry}",
     "<details class=\"paper-details\">",
     "<summary>",
-    "<span class=\"paper-title\">", row$title, "</span>",
-    "<a href=\"", row$pdf_link,
-    "\" class=\"pdf-button\" title=\"Download PDF\"",
-    "onclick=\"event.stopPropagation()\" target=\"_blank\">📄 PDF</a>",
+    "<span class=\"paper-title\">", row$title, "</span>"
+  )
+  
+  # PDF Button
+  if (!is.na(row$pdf_link) && nzchar(row$pdf_link)) {
+    lines <- c(lines,
+     paste0(
+      "<a href=\"", row$pdf_link,
+      "\" class=\"pdf-button\" title=\"Download PDF\"",
+      "onclick=\"event.stopPropagation()\" target=\"_blank\">PDF</a>" 
+      )
+    )
+  }
+  
+    # Slides Button
+  if (!is.na(row$slides_link) && nzchar(row$slides_link)) {
+    lines <- c(lines,
+     paste0(
+      "<a href=\"", row$slides_link,
+      "\" class=\"slides-button\" title=\"Download Slides\"",
+      "onclick=\"event.stopPropagation()\" target=\"_blank\">Slides</a>" 
+      )
+    )
+  }
+
+  lines <- c(lines,
     "</summary>",
     "",
     ":::{.abstract}",
