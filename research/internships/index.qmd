@@ -1,0 +1,17 @@
+---
+title: "Inequality in Internships"
+date: 2025-06-18
+pub-info:
+  links:
+    - name: Slides
+    - url: ../../papers/internships.pdf
+format: html
+---
+
+## Abstract
+
+Internships may play an important role in shaping labor market inequality. Using Dutch admin data, we show that the richest university students are 39% more likely to do an internship than the poorest students. We explore what creates this difference and what consequences it has on students' careers. Ability does not explain the difference, but the opportunity costs of doing an internship could be important. After graduation, internships are linked to significantly higher earnings and contribute to intergenerational immobility. In the future, we plan to find a causal strategy to estimate internship returns, and analyse how personal networks help students find internships.
+
+## Figures
+
+![Rich students do more internships than poor students](../../img/internships.png)

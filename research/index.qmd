@@ -1,0 +1,8 @@
+---
+title: "Research"
+format: html
+listing:
+  - id: papers
+  - contents: "research/*/index.qmd"
+---
+
