@@ -2,7 +2,13 @@
 title: "Research"
 format: html
 listing:
-  - id: papers
-  - contents: "research/*/index.qmd"
+  id: papers
+  contents: "*/index.qmd"
+  sort: "date desc"
+page-layout: full
+toc-location: right
+include-back-link: false
 ---
 
+:::{#papers}
+:::
