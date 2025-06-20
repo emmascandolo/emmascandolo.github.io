@@ -1,10 +1,15 @@
 ---
 title: "Student Employment in England after the Maintenance Grant Removal"
 date: 2024-06-01
+authors:
+  - name: Ben Dahmen
+    url: https://bendahmen.github.io/
+    affiliation: LSE
 pub-info:
   links:
     - name: PDF
-    - url: ../../papers/maintenace_grant.pdf
+      url: ../../papers/maintenance_grant.pdf
+      icon: bi bi-file-earmark-pdf
 format: html
 ---
 

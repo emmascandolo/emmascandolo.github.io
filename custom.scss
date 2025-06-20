@@ -9,26 +9,61 @@ $font-family-sans-serif: 'Josefin Sans', sans-serif;
 $font-family-smallcaps: 'Playfair Display SC', serif;
 
 // Colors
-$main-color: #990f3d;
-$main-color-light: #DFB2B2;
-$main-secondary: #0d7680;
-$main-secondary-light: #7CA6A6;
+//$main-color: #00A651;
+//$background-color: #E8F5E8;
+//$main-color-light: #D4F1D4;
+//$accent-color: #2C3E50;
+//$secondary-accent-color: #F39C12;
+//$font-color: #2C3E50;
+//$secondary-font-color: #666666;
+//$light-font-color: #FFFFFF;
 
-$main-dark: #333333;
-$main-light: #FFEDE0;
-$main-light-secondary: #F2DBCE;
-$font-color: #111111;
+// LSE Color Scheme
+$main-color: #8B1538;           // LSE Burgundy - for titles and accents
+$background-color: #FDF7F8;     // Very light pink-tinted background
+$main-color-light: #F4E6E9;     // Light burgundy for cards and info boxes
+$accent-color: #1B365D;         // Deep navy blue (LSE secondary color)
+$secondary-accent-color: #B8860B; // Dark gold for highlights
+$font-color: #1B365D;           // Navy for primary text
+$secondary-font-color: #666666;  // Medium gray (unchanged)
+$light-font-color: #FFFFFF;     // White (unchanged)
 
 $link-color: $main-color;
-$body-bg: $main-light;
-$code-block-bg: $main-light-secondary;
+$body-bg: $background-color;
+$code-block-bg: $secondary-accent-color;
 $code-color: $font-color;
-$border-color: #ccbbb1;
+$border-color: $accent-color;
 
-$navbar-bg: $main-light;
+$navbar-bg: $background-color;
 $navbar-fg: $main-color;
 
 
 
 
 /*-- scss:rules --*/
+
+.back-nav {
+  margin-bottom: 1.5em;
+}
+
+// Research pages
+.project-details {
+  background-color: $main-color-light;
+  padding: 0.75em;
+  margin: 0;
+}
+
+.project-links {
+  padding: 0;
+  margin-bottom: 0;
+}
+ul.project-links {
+  margin-bottom: 0;
+}
+
+.project-link {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0 1em 0 0;
+  font-weight: bold;
+}

@@ -1,10 +1,19 @@
 ---
 title: "Inequality in Internships"
+subtitle: "Understanding the unequal access to internships for university students in the Netherlands"
 date: 2025-06-18
+author:
+  - name: Omry Yoresh
+    url: https://www.lse.ac.uk/economics/people/research-students/omry-yoresh
+    affiliation: LSE
+  - name: Ben Dahmen
+    url: https://bendahmen.github.io/
+    affiliation: LSE
 pub-info:
   links:
     - name: Slides
-    - url: ../../papers/internships.pdf
+      url: ../../papers/internships.pdf
+      icon: bi bi-easel
 format: html
 ---
 
