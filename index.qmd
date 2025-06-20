@@ -2,7 +2,7 @@
 title: "Ben Dahmen"
 about:
   template: trestles
-  image: img/profile_cropped.jpg
+  image: img/profile_cropped_transparent.png
   links:
     - icon: send
       text: b.a.dahmen@lse.ac.uk

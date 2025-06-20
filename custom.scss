@@ -1,8 +1,69 @@
 /*-- scss:defaults --*/
-$navbar-fg:          #393D3E !default;
-$navbar-hl:          #000000 !default;
-$navbar-bg:          #ECECEC !default;
-$body-color:        #393D3E !default;
-$link-color: #393D3E !default;
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); //serif
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); //sans-serif
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); // Smallcaps
+
+$font-family-serif: 'Playfair Display', serif;
+$font-family-sans-serif: 'Josefin Sans', sans-serif;
+$font-family-smallcaps: 'Playfair Display SC', serif;
+
+// Colors
+//$main-color: #00A651;
+//$background-color: #E8F5E8;
+//$main-color-light: #D4F1D4;
+//$accent-color: #2C3E50;
+//$secondary-accent-color: #F39C12;
+//$font-color: #2C3E50;
+//$secondary-font-color: #666666;
+//$light-font-color: #FFFFFF;
+
+// LSE Color Scheme
+$main-color: #8B1538;           // LSE Burgundy - for titles and accents
+$background-color: #FDF7F8;     // Very light pink-tinted background
+$main-color-light: #F4E6E9;     // Light burgundy for cards and info boxes
+$accent-color: #1B365D;         // Deep navy blue (LSE secondary color)
+$secondary-accent-color: #B8860B; // Dark gold for highlights
+$font-color: #1B365D;           // Navy for primary text
+$secondary-font-color: #666666;  // Medium gray (unchanged)
+$light-font-color: #FFFFFF;     // White (unchanged)
+
+$link-color: $main-color;
+$body-bg: $background-color;
+$code-block-bg: $secondary-accent-color;
+$code-color: $font-color;
+$border-color: $accent-color;
+
+$navbar-bg: $background-color;
+$navbar-fg: $main-color;
+
+
+
 
 /*-- scss:rules --*/
+
+.back-nav {
+  margin-bottom: 1.5em;
+}
+
+// Research pages
+.project-details {
+  background-color: $main-color-light;
+  padding: 0.75em;
+  margin: 0;
+}
+
+.project-links {
+  padding: 0;
+  margin-bottom: 0;
+}
+ul.project-links {
+  margin-bottom: 0;
+}
+
+.project-link {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0 1em 0 0;
+  font-weight: bold;
+}
