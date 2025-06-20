@@ -5,10 +5,11 @@ listing:
   id: papers
   contents: "*/index.qmd"
   sort: "date desc"
+  template: ../html/research/listing.ejs
 page-layout: full
 toc-location: right
 include-back-link: false
 ---
 
-:::{#papers}
+::: {#papers}
 :::

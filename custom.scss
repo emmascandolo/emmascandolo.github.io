@@ -46,6 +46,42 @@ $navbar-fg: $main-color;
   margin-bottom: 1.5em;
 }
 
+// Research listing page
+.project-list {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2em;
+    
+    li.project {
+      background-color: $main-color-light;
+      margin-bottom: 2.5em;
+      border-left: 6px solid $accent-color;
+      padding: 0 0 0 0.5em;
+      
+      p {
+        margin: 0;
+      }
+    }
+  }
+  
+  ul.project-links {
+    margin-bottom: 0;
+  }
+  
+  .project-details-listing {
+    margin-top: 0.8em;
+    font-size: 0.9rem;
+  
+    .project-link {
+      display: inline-block;
+      white-space: nowrap;
+      padding: 0.5em 0.5em 0.5em 1em;
+    }
+    
+  }
+}
+
 // Research pages
 .project-details {
   background-color: $main-color-light;
