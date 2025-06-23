@@ -1,7 +1,9 @@
 ---
 title: "Student Employment in England after the Maintenance Grant Removal"
 date: 2024-06-01
-authors:
+description: Student employment increased after the UK removed the means-tested maintenance grant. In my paper I analyse whether the grant removal caused an increase in employment by comparing eligible and ineligible students.
+plot: ../../img/employment_ts.png
+author:
   - name: Ben Dahmen
     url: https://bendahmen.github.io/
     affiliation: LSE
