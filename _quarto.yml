@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Ben Dahmen"
+  google-analytics: "G-RN6PYSSD0D"
+  cookie-consent: true
   navbar:
     left:
       - href: index.qmd
