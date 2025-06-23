@@ -4,31 +4,71 @@
     <% for (const item of items) { %>
       <li class="project" <%=metadataAttrs(item) %>>
         <div class="project-content">
-          <p>
-            <a href="<%- item.path %>">
-              <%= item.title %>
-            </a>
-          </p>
-          <div class="authors">
-            <p><%= item.author %></p>
-          </div>
-          <div class="project-details-listing">
-            <ul class="project-links">
-              <% if (item['pub-info'].links) { %>
-                <% for (const link of item['pub-info'].links) { %>
-                  <li class="project-link">
-                    <% if (link.local) { %>
-                      <a href="<%- item.path.substring(0, item.path.lastIndexOf('/')) %>/<%- link.url %>">
-                    <% } else { %>
-                      <a href="<%- link.url %>">
-                    <% } %>
-                        <i class="<%- link.icon %>"></i> <%= link.name %>
-                      </a>
-                  </li>
+          <div class="project-info">
+            <p class="project-title">
+              <a href="<%- item.path %>">
+                <%= item.title %>
+              </a>
+            </p>
+            <% 
+              // Parse authors - handle both string and array formats
+              let authors = [];
+              if (typeof item.author === 'string') {
+                // Split by common delimiters: comma, semicolon, or "and"
+                authors = item.author.split(/,|;|\sand\s/).map(a => a.trim()).filter(a => a);
+              } else if (Array.isArray(item.author)) {
+                authors = item.author;
+              }
+              
+              // Filter out "Ben Dahmen" (case-insensitive) and get other authors
+              const otherAuthors = authors.filter(author => 
+                author.toLowerCase().replace(/\s+/g, '') !== 'bendahmen'
+              );
+              
+              // Only show authors if there are co-authors
+              if (otherAuthors.length > 0) { 
+            %>
+              <div class="authors">
+                <p>
+                  with 
+                  <% if (otherAuthors.length === 1) { %>
+                    <%= otherAuthors[0] %>
+                  <% } else if (otherAuthors.length === 2) { %>
+                    <%= otherAuthors[0] %> and <%= otherAuthors[1] %>
+                  <% } else { %>
+                    <%= otherAuthors.slice(0, -1).join(', ') %>, and <%= otherAuthors[otherAuthors.length - 1] %>
+                  <% } %>
+                </p>
+              </div>
+            <% } %>
+            <% if (item.description) { %>
+              <div class="project-description">
+                <p><%= item.description %></p>
+              </div>
+            <% } %>
+            <div class="project-details-listing">
+              <ul class="project-links">
+                <% if (item['pub-info'].links) { %>
+                  <% for (const link of item['pub-info'].links) { %>
+                    <li class="project-link">
+                      <% if (link.local) { %>
+                        <a href="<%- item.path.substring(0, item.path.lastIndexOf('/')) %>/<%- link.url %>">
+                      <% } else { %>
+                        <a href="<%- link.url %>">
+                      <% } %>
+                          <i class="<%- link.icon %>"></i> <%= link.name %>
+                        </a>
+                    </li>
+                  <% } %>
                 <% } %>
-              <% } %>
-            </ul>
+              </ul>
+            </div>
           </div>
+          <% if (item.plot) { %>
+            <div class="project-plot">
+              <img src="<%- item.plot %>" alt="<%= item.title %> plot">
+            </div>
+          <% } %>
         </div>
       </li>
     <% } %>

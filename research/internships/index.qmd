@@ -2,6 +2,8 @@
 title: "Inequality in Internships"
 subtitle: "Understanding the unequal access to internships for university students in the Netherlands"
 date: 2025-06-18
+description: Rich university students in NL are 39% more likely to do an internship than poor students. In this paper we explore whether networks and opportunity costs contribute to this inequality, and how it affects income inequality later in life.
+plot: ../../img/internships.png
 author:
   - name: Omry Yoresh
     url: https://www.lse.ac.uk/economics/people/research-students/omry-yoresh
