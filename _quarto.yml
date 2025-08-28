@@ -25,3 +25,7 @@ format:
 
 editor: visual
 
+publish:
+  gh-pages:
+    origin: origin
+    branch: gh-pages
