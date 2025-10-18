@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://emmascandolo.github.io/cv.html</loc>
-    <lastmod>2025-08-28T07:59:34.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmascandolo.github.io/about.html</loc>
-    <lastmod>2025-08-28T07:59:34.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmascandolo.github.io/research/internships/index.html</loc>
-    <lastmod>2025-08-28T07:59:34.941Z</lastmod>
+    <loc>https://emmascandolo.github.io/research/student_employment/index.html</loc>
+    <lastmod>2025-10-18T17:00:03.984Z</lastmod>
   </url>
   <url>
     <loc>https://emmascandolo.github.io/research/index.html</loc>
-    <lastmod>2025-08-28T07:59:34.940Z</lastmod>
+    <lastmod>2025-10-18T17:00:03.984Z</lastmod>
   </url>
   <url>
-    <loc>https://emmascandolo.github.io/research/student_employment/index.html</loc>
-    <lastmod>2025-08-28T07:59:34.941Z</lastmod>
+    <loc>https://emmascandolo.github.io/cv.html</loc>
+    <lastmod>2025-10-18T17:00:03.957Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/about.html</loc>
+    <lastmod>2025-10-18T17:00:03.957Z</lastmod>
   </url>
   <url>
     <loc>https://emmascandolo.github.io/index.html</loc>
-    <lastmod>2025-08-28T07:59:34.934Z</lastmod>
+    <lastmod>2025-10-18T17:00:03.976Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/research/internships/index.html</loc>
+    <lastmod>2025-10-18T17:00:03.984Z</lastmod>
   </url>
 </urlset>
