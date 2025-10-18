@@ -1,58 +1,25 @@
 ---
-title: "Inequality in Internships"
-subtitle: "Understanding the unequal access to internships for university students in the Netherlands"
-date: 2025-06-18
-description: Rich university students in NL are 39% more likely to do an internship than poor students. In this paper we explore whether networks and opportunity costs contribute to this inequality, and how it affects income inequality later in life.
+title: "How do Students to more Flexible University Systems?"
+subtitle: "Understanding how the Bologna Process influenced students' educational choices and earnings in Italy"
+date: 2025-10-18
+description: Before the Bologna Process, Italian students faced a single choice regarding higher education: either enrol in a long program lasting 4–5 years or not attend university at all. The reform introduced greater flexibility by restructuring degrees into two cycles—a three-year bachelor’s program followed by an optional two-year master’s degree. I study the impact this has on university attainment, years of schooling, field of study and occupation choice, and wages by the early 30s.
 plot: ../../img/internships.png
 author:
-  - name: Omry Yoresh
-    url: https://www.lse.ac.uk/economics/people/research-students/omry-yoresh
-    affiliation: LSE
-  - name: Ben Dahmen
-    url: https://bendahmen.github.io/
-    affiliation: LSE
+  - name: Emma Scandolo
+    url: https://emmascandolo.github.io
+    affiliation: UCL
 pub-info:
   links:
     - name: Slides
-      url: ../../papers/internships.pdf
+      url: ../../papers/BP_Italy_Scandolo.pdf
       icon: bi bi-easel
 format: html
 ---
 
 ## Abstract
 
-Internships may play an important role in shaping labor market inequality. Using Dutch admin data, we show that the richest university students are 39% more likely to do an internship than the poorest students. We explore what creates this difference and what consequences it has on students' careers. Ability does not explain the difference, but the opportunity costs of doing an internship could be important. After graduation, internships are linked to significantly higher earnings and contribute to inter-generational immobility. In the future, we plan to find a causal strategy to estimate internship returns, and analyse how personal networks help students find internships.
+This paper studies how students react when they are exposed to a more flexible university system, with the option of getting a less specialized university degree in shorter time. Using a Regression Discontinuity design that exploits the roll-out of the Bologna Reform in Italy, I compare education and labor market outcomes for cohorts of individuals who were deciding to go to university right before and right after the reform was implemented. Ex-ante, the impact of the reform on university attainment is ambiguous: schooling might increase because more people go to university, but it might also decrease if students who previously would have completed a longer degree now opt to finish studying after a shorter 3-year degree. I show that both mechanisms are at play but that females, on net, spend 0.15 more years in university. This increases female earnings by 1.5-2% while keeping their employment probability constant, implying a return to one year of university of at least 10%. The results are mostly driven by more women graduating from healthcare degrees - a 30% increase - which has important implications on their occupation. They are more likely to work in the healthcare sector, for which a short 3-year degree provides sufficient preparation, and less likely to work in administrative roles. These findings highlight the importance of tailoring educational reforms to the specific demands of different career paths.
 
-## 4-Minute Summary
+![Reform uptake](/img/BP_Italy_first_stage.png)
 
-Student internships in the Netherlands are mainly done by rich students. Controlling for the field of education, the top five percent of students are 40% more likely to do an internship than the bottom five percent. In our research we try to answer why this is the case, and whether it matters for labor market outcomes.
-
-![Rich students do more internships than poor students](../../img/internships.png)
-
-### Why do rich students do more internships?
-
-There are different explanations why rich students may be doing more internships than poor students. The simplest explanation would be ability. Maybe richer students are, on average, more able than poor students, and companies are rightfully hiring the best candidates for their internships. We test this explanation by controlling for students’ high-school exam scores but find that the inequality between rich and poor is unaffected. High-school exam scores are, of course, not a perfect measure of ability, but the result suggests that ability is not the main explanation for the inequality between rich and poor students.
-
-```{r, echo=FALSE}
-htmltools::includeHTML("table.html")
-```
-
-Instead, personal connections could be an explanation. What if the most important ingredient to finding an internship is personal connections, and rich students simply have more valuable connections than poor students? We plan to test this explanation by using data on a person’s relationships, for example family relationships, colleagues, or neighbors. An interesting test would be whether conditional on having a relationship with someone who works in a certain industry, a rich and a poor student are equally likely to intern in that industry.
-
-A third explanation for the inequality between rich and poor students could be opportunity costs. Internships bear opportunity costs because they pay less than the minimum wage, and regular student jobs paying at least the minimum wage are common. Moreover, to be eligible for internships, students often need to extend their enrollment and pay additional tuition fees.
-
-::: columns
-::: column
-![Rich students work to gain experience, poor students work to survive](../../img/relevant_jobs_vs_income.PNG){fig-alt="Relevant Jobs" fig-width="100%"}
-:::
-
-::: column
-![](../../img/survival_job_vs_income.PNG){fig-alt="Survival Jobs" fig-width="100%"}
-:::
-:::
-
-The data confirms that opportunity costs are relevant. While rich students work more hours in internships, poor students work more hours in regular jobs. To dig deeper we split regular jobs into two categories: career jobs that are related to your field of study, and survival jobs such as waiting in a restaurant. Rich students are more likely to work in a career job, and poor students are more likely to work in a survival job.
-
-### Does it matter?
-
-Whether the internship inequality really matters, depends on how high the returns to doing an internship are. Internships are associated with more than 50% higher wages three years after graduation, and still more than 20% higher wages seven years after graduation, when controlling for observables related to education. Of course, this is only a correlation, but it suggests that internships have either large wage returns or are done by those people who do well in the labor market for other reasons too. Moreover, in a simple exercise we calculate the inequality in a student’s own wages seven years after graduation and see that doing an internship accounts for more than ten percent of that inequality.
+### 
