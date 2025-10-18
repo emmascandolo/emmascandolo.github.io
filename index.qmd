@@ -5,19 +5,19 @@ about:
   image: img/profile_cropped_transparent.png
   links:
     - icon: send
-      text: b.a.dahmen@lse.ac.uk
-      href: mailto:b.a.dahmen@lse.ac.uk
+      text: emma.scandolo.21@ucl.ac.uk
+      href: mailto:emma.scandolo.21@ucl.ac.uk
     - icon: globe
-      text: LSE Page
-      href: https://www.lse.ac.uk/economics/people/research-students/ben-dahmen
+      text: LinkedIn
+      href: www.linkedin.com/in/emma-scandolo
     - icon: twitter-x
-      text: Ben Dahmen
-      href: https://x.com/bendahmen27
+      text: Emma Scandolo
+      href: https://x.com/emmascandolo
     - icon: github
       text: Github
-      href: https://github.com/bendahmen
+      href: https://github.com/emmascandolo
 ---
 
 Hi there, I'm Emma!
 
-Whenever I'm not procrastinating by watching YouTube tutorials on how to make your own website, I am a PhD student at the LSE Econ Department. Check out my [research](/research/ "Ben Dahmen - Research") or my [CV](/cv.html "Ben Dahmen - CV"), and feel free to get in touch via email while I'm still in that phase of my career where receiving an email is the highlight of my week.
+Whenever I'm not pretending to be an elite runner, I am a PhD student at the UCL Econ Department. Check out my [research](/research/ "Ben Dahmen - Research") or my [CV](/cv.html "Ben Dahmen - CV"), and feel free to get in touch via email.
