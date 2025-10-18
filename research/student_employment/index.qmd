@@ -1,24 +1,24 @@
 ---
-title: "Student Employment in England after the Maintenance Grant Removal"
-date: 2024-06-01
-description: Student employment increased after the UK removed the means-tested maintenance grant. In my paper I analyse whether the grant removal caused an increase in employment by comparing eligible and ineligible students.
-plot: ../../img/employment_ts.png
+title: "How do Students React to more Flexible University Systems? The Bologna Process in Italy"
+date: 2025-10-18
+description: Before the Bologna Process, Italian students faced a single choice regarding higher education: either enrol in a long university program lasting 4–5 years (single-cycle) or not attend university at all. The reform introduced greater flexibility by restructuring degrees into two cycles—a three-year bachelor’s program followed by an optional two-year master’s degree. I study the impact this has on students' educational choices and wages by the early 30s.
+plot: ../../img/BP_Italy_first_stage.png
 author:
-  - name: Ben Dahmen
-    url: https://bendahmen.github.io/
+  - name: Emma Scandolo
+    url: https://emmascandolo.github.io/
     affiliation: LSE
 pub-info:
   links:
-    - name: PDF
-      url: ../../papers/maintenance_grant.pdf
+    - name: Paper
+      url: ../../papers/BP_Italy_Scandolo.pdf
       icon: bi bi-file-earmark-pdf
 format: html
 ---
 
 ## Abstract
 
-In 2016 the UK removed a living cost grant for university students. Motivated by a large increase in student employment after the grant was removed, I estimate whether the loss in income pushed students to work during university. I use two Difference-in-Differences designs, the first compares students to the regular labor market, and the second splits students by grant eligibility. Although student employment increased compared to the regular labor market, the increase is common to eligible and ineligible students. My results suggest that the maintenance grant removal did not cause the increase in student employment.
+This paper studies how students react when they are exposed to a more flexible university system, with the option of getting a less specialized university degree in shorter time. Using a Regression Discontinuity design that exploits the roll-out of the Bologna Reform in Italy, I compare education and labor market outcomes for cohorts of individuals who were deciding to go to university right before and right after the reform was implemented. Ex-ante, the impact of the reform on university attainment is ambiguous: schooling might increase because more people go to university, but it might also decrease if students who previously would have completed a longer degree now opt to finish studying after a shorter 3-year degree. I show that both mechanisms are at play but that females, on net, spend 0.15 more years in university. This increases female earnings by 1.5-2% while keeping their employment probability constant, implying a return to one year of university of at least 10%. The results are mostly driven by more women graduating from healthcare degrees - a 30% increase - which has important implications on their occupation. They are more likely to work in the healthcare sector, for which a short 3-year degree provides sufficient preparation, and less likely to work in administrative roles. These findings highlight the importance of tailoring educational reforms to the specific demands of different career paths.
 
 ## Figures
 
-![Student employment increased after the grant was removed](../../img/employment_ts.png)
+![](/img/BP_Italy_first_stage.png)

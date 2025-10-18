@@ -3,16 +3,16 @@ title: "Less is More? How Shorter University Degrees Affect Educational and Earl
 subtitle: "Understanding how the Bologna Process affected students' educational choices and early-career outcomes in Portugal"
 date: 2025-10-18
 description: Before the Bologna Process, Portugal already had a two-tiered higher education system, with a five-year licenciatura followed by an optional two-year master’s degree. The reform shortened the first cycle to three years, aligning it with the new bachelor’s structure introduced across Europe and further standardizing progression to the master’s level. Using administrative data, I study the impact this has on university attainment, years of schooling, field of study and occupation choice, and early-career patterns.
-plot: ../../img/internships.png
+plot: ../../img/BP_PT_education_outcomes.png
 author:
   - name: Emma Scandolo
     url: https://emmascandolo.github.io
     affiliation: UCL
 pub-info:
   links:
-    - name: Slides
+    - name: Paper
       url: ../../papers/BP_Portugal_Scandolo.pdf
-      icon: bi bi-easel
+      icon: bi bi-file-earmark-pdf
 format: html
 ---
 
