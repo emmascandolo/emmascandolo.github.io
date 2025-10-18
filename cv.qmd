@@ -10,31 +10,35 @@ format-links: [pdf]
 ---
 
 ::: {.print-only .contact-block}
-b.a.dahmen\@lse.ac.uk
+emma.scandolo.21\@ucl.ac.uk
 :::
 
 ## EDUCATION
 
-**PhD -- Economics** <br> *London School of Economics* [*Sep 2022 --- Present*]{.cvdate}
+**PhD -- Economics** <br> *University College London* *Sep 2021 --- Present*
 
 ::: print-only
--   Research Interests: Public Economics, Labor Economics
+-   Research Interests: Economics of Education, Labor Economics
 :::
 
-**MSc -- Economics** <br> *London School of Economics* [*Sep 2020 --- Jul 2021*]{.cvdate}
+**MSc -- International Economics** <br> *Erasmus University Rotterdam* *Sep 2019 --- Sep 2020*
 
 **BSc -- Economics & Business Economics** <br> *Erasmus University Rotterdam* [*Sep 2016 --- Jul 2019*]{.cvdate}
 
 ## WORK EXPERIENCE {style="page-break-before: always"}
 
-**Predoctoral Research Assistant Public Economics** <br> *London School of Economics* [*Jan 2020 -- June 2021*]{.cvdate}
+**Research Assistant to Gabriella Conti and Attila Lindner** <br> *University College London* *Jan 2023 -- October 2025*
 
-**Research Assistant in the Education, Labor and Pensions Sector** <br> *CPB Netherlands Bureau for Economic Policy Analysis* [*Sep 2019 -- Mar 2020*]{.cvdate}
+**Impact Evaluation Intern** <br> *European Bank for Reconstruction and Development (EBRD)* *Oct 2020 -- Sep 2021*
+
+**Impact Evaluation Intern** <br> *Dutch Development Bank (FMO)* *Jun 2020 -- Oct 2020*
 
 ## TEACHING
 
-**London School of Economics** <br> *EC1A3* [*2023/24*]{.cvdate} <br> *EC2B3* [*2023/24 -- 2024/25*]{.cvdate} <br> *PP410* [*2024/25 -- 2025/26*]{.cvdate}
+**University College London** <br> *ECON0024* *2022/23 -- 2023/24 –* <br> *ECON0053* *2022/23 -- 2025/26*
 
-### Awards
+**Erasmus University Rotterdam** <br> *FEB11002X* *2017/18 -- 2019/20 –* <br> *FEB13061* *2019/20*
 
-**London School of Economics** <br> *Excellence in Education Award* [*2024/25*]{.cvdate} <br> *LSE Class Teacher Award (Highly Commended)* [*2024/25*]{.cvdate} <br> *LSE Teaching Bonus Award* [*2023/24*]{.cvdate}
+## GRANTS
+
+**International Growth Centre (IGC)** <br> £5,000 *Scoping Fund* [*2024/25*]{.cvdate}
