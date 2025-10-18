@@ -1,7 +1,7 @@
 ---
 title: "How do Students React to more Flexible University Systems? The Bologna Process in Italy"
 date: 2025-10-18
-description: Before the Bologna Process, Italian students faced a single choice regarding higher education: either enrol in a long university program lasting 4–5 years (single-cycle) or not attend university at all. The reform introduced greater flexibility by restructuring degrees into two cycles—a three-year bachelor’s program followed by an optional two-year master’s degree. I study the impact this has on students' educational choices and wages by the early 30s.
+description: Before the Bologna Process, Italian students faced a single choice regarding higher education. Either enrol in a long university program lasting 4–5 years (single-cycle) or not attend university at all. The reform introduced greater flexibility by restructuring degrees into two cycles—a three-year bachelor’s program followed by an optional two-year master’s degree. I study the impact this has on students' educational choices and wages by the early 30s.
 plot: ../../img/BP_Italy_first_stage.png
 author:
   - name: Emma Scandolo
