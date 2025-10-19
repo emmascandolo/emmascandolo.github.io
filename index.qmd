@@ -9,7 +9,7 @@ about:
       href: mailto:emma.scandolo.21@ucl.ac.uk
     - icon: globe
       text: LinkedIn
-      href: www.linkedin.com/in/emma-scandolo
+      href: www.linkedin.com/in/emma-scandolo97
     - icon: twitter-x
       text: Emma Scandolo
       href: https://x.com/emmascandolo
