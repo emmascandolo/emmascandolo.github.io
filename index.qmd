@@ -2,7 +2,7 @@
 title: "Emma Scandolo"
 about:
   template: jolla
-  image: img/emma_prifile.png
+  image: img/profile_cropped_transparent.png
   links:
     - icon: send
       text: emma.scandolo.21@ucl.ac.uk

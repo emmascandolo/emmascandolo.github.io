@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Omry Yoresh">
-<meta name="author" content="Ben Dahmen">
-<meta name="description" content="Rich university students in NL are 39% more likely to do an internship than poor students. In this paper we explore whether networks and opportunity costs contribute to this inequality, and how it affects income inequality later in life.">
+<meta name="author" content="Emma Scandolo">
+<meta name="description" content="Before the Bologna Process, Portugal already had a two-tiered higher education system, with a five-year licenciatura followed by an optional two-year master’s degree. The reform shortened the first cycle to three years, aligning it with the new bachelor’s structure introduced across Europe and further standardizing progression to the master’s level. Using administrative data, I study the impact this has on university attainment, years of schooling, field of study and occupation choice, and early-career patterns.">
 
-<title>Inequality in Internships – Emma Scandolo</title>
+<title>Less is More? How Shorter University Degrees Affect Educational and Early-Career Outcomes – Emma Scandolo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -141,37 +140,29 @@ cookieconsent.run({
   <div class="quarto-title-banner page-columns page-full">
         <div class="back-nav"><a href="../../research/">← Back to research</a></div>
         <div class="quarto-title column-body">
-      <h1 class="title">Inequality in Internships</h1>
-            <p class="subtitle lead">Understanding the unequal access to internships for university students in the Netherlands</p>
+      <h1 class="title">Less is More? How Shorter University Degrees Affect Educational and Early-Career Outcomes</h1>
+            <p class="subtitle lead">Understanding how the Bologna Process affected students’ educational choices and early-career outcomes in Portugal</p>
           </div>
   </div>
       
     <div class="project-details">
             <ul class="project-links">
             <li class="project-link">
-        <a href="../../papers/internships.pdf"><i class="bi bi-easel"></i> Slides</a>
+        <a href="../../papers/BP_Portugal_Scandolo.pdf"><i class="bi bi-file-earmark-pdf"></i> Paper</a>
       </li>
           </ul>
       </div>
     
   <div class="quarto-title-meta-author">
-    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-heading">Affiliation</div>
     
       <div class="quarto-title-meta-contents">
-      <p class="author"><a href="https://www.lse.ac.uk/economics/people/research-students/omry-yoresh">Omry Yoresh</a> </p>
+      <p class="author"><a href="https://emmascandolo.github.io">Emma Scandolo</a> </p>
     </div>
     <div class="quarto-title-meta-contents">
           <p class="affiliation">
-              LSE
-            </p>
-        </div>
-      <div class="quarto-title-meta-contents">
-      <p class="author"><a href="https://bendahmen.github.io/">Ben Dahmen</a> </p>
-    </div>
-    <div class="quarto-title-meta-contents">
-          <p class="affiliation">
-              LSE
+              UCL
             </p>
         </div>
     </div>
@@ -182,7 +173,7 @@ cookieconsent.run({
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 2025</p>
+        <p class="date">October 2025</p>
       </div>
     </div>
     
@@ -197,11 +188,15 @@ cookieconsent.run({
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
-  <li><a href="#minute-summary" id="toc-minute-summary" class="nav-link" data-scroll-target="#minute-summary">4-Minute Summary</a>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
   <ul class="collapse">
-  <li><a href="#why-do-rich-students-do-more-internships" id="toc-why-do-rich-students-do-more-internships" class="nav-link" data-scroll-target="#why-do-rich-students-do-more-internships">Why do rich students do more internships?</a></li>
-  <li><a href="#does-it-matter" id="toc-does-it-matter" class="nav-link" data-scroll-target="#does-it-matter">Does it matter?</a></li>
+  <li><a href="#question-and-contribution" id="toc-question-and-contribution" class="nav-link" data-scroll-target="#question-and-contribution">Question and contribution</a></li>
+  <li><a href="#motivation-and-relevance" id="toc-motivation-and-relevance" class="nav-link" data-scroll-target="#motivation-and-relevance">Motivation and relevance</a></li>
+  <li><a href="#setting-and-identification" id="toc-setting-and-identification" class="nav-link" data-scroll-target="#setting-and-identification">Setting and identification</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#main-findings" id="toc-main-findings" class="nav-link" data-scroll-target="#main-findings">Main findings</a></li>
+  <li><a href="#robustness" id="toc-robustness" class="nav-link" data-scroll-target="#robustness">Robustness</a></li>
+  <li><a href="#implications" id="toc-implications" class="nav-link" data-scroll-target="#implications">Implications</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -218,95 +213,42 @@ cookieconsent.run({
 
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Internships may play an important role in shaping labor market inequality. Using Dutch admin data, we show that the richest university students are 39% more likely to do an internship than the poorest students. We explore what creates this difference and what consequences it has on students’ careers. Ability does not explain the difference, but the opportunity costs of doing an internship could be important. After graduation, internships are linked to significantly higher earnings and contribute to inter-generational immobility. In the future, we plan to find a causal strategy to estimate internship returns, and analyse how personal networks help students find internships.</p>
+<p>This paper examines how students respond when university degrees become shorter, exploiting Portugal’s Bologna Process implementation as a natural experiment. Using a regression discontinuity design based on cohort age at implementation, I find that the reform increased university attainment by 1.5pp and average schooling by 0.25-0.33 years. Students shifted away from healthcare programs—where Bologna uniquely lengthened degrees—toward STEM and economics fields, with effects concentrated among females. To capture welfare impacts, I track cumulative earnings by age, which integrates both timing effects (when people enter the labor market) and human capital effects (what they earn). While cumulative earnings are initially negative through the mid-twenties due to foregone wages as more students pursue university, they turn positive by the early thirties. Treated workers experience steeper early-career wage growth and increased sorting into higher-paying firms, particularly among females who shifted into higher-return fields. I show that 24% of the wage increase operates through the workplace channel, whereas 66% is associated exclusively to the individual. Overall, gains from expanding university access and reallocating students toward higher-paying fields outweigh losses from degree compression, validating the ’’less is more” outcome policymakers intended.</p>
+<section id="question-and-contribution" class="level3">
+<h3 class="anchored" data-anchor-id="question-and-contribution">Question and contribution</h3>
+<p>When university degrees are shortened, do the gains from attracting more people into university and more demanding but higher-paying fields outweigh the losses from compressing training into less time? I answer this by exploiting Portugal’s implementation of the Bologna Process, which reduced most first-cycle degrees from 4–5 to 3 years. This paper provides the first comprehensive evidence on how shortening degree length affects: (i) educational attainment and years of schooling, (ii) fields of study, (iii) early-career earnings, and (iv) wage formation via worker quality versus firm sorting. Although this reform affected most continental European countries, there is surprisingly little evidence on its impact beyond enrolment effects. This paper fills that gap. I find that university attainment increases, and average schooling rises by 0.25–0.33 years. Field composition shifts markedly: graduates from Healthcare decline by 30%, while STEM increases by 22% and Economics by 10%. Cumulative earnings are higher by the early thirties, and relative hourly wages rise by 3.8%. Effects are consistently stronger for women, who experience faster wage growth in the first years of employment and are more likely to move to higher-paying firms. These findings complement the literature on policies that extend compulsory schooling and on heterogeneous college returns by field of study by examining a reform that reduces time-to-degree in higher education.</p>
 </section>
-<section id="minute-summary" class="level2">
-<h2 class="anchored" data-anchor-id="minute-summary">4-Minute Summary</h2>
-<p>Student internships in the Netherlands are mainly done by rich students. Controlling for the field of education, the top five percent of students are 40% more likely to do an internship than the bottom five percent. In our research we try to answer why this is the case, and whether it matters for labor market outcomes.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/internships.png" class="img-fluid figure-img"></p>
-<figcaption>Rich students do more internships than poor students</figcaption>
-</figure>
-</div>
-<section id="why-do-rich-students-do-more-internships" class="level3">
-<h3 class="anchored" data-anchor-id="why-do-rich-students-do-more-internships">Why do rich students do more internships?</h3>
-<p>There are different explanations why rich students may be doing more internships than poor students. The simplest explanation would be ability. Maybe richer students are, on average, more able than poor students, and companies are rightfully hiring the best candidates for their internships. We test this explanation by controlling for students’ high-school exam scores but find that the inequality between rich and poor is unaffected. High-school exam scores are, of course, not a perfect measure of ability, but the result suggests that ability is not the main explanation for the inequality between rich and poor students.</p>
-<div class="cell">
-<div class="cell-output-display">
-<!-- Outcome label -->
-<p><small><strong>Outcome:</strong> Doing an internship</small></p>
-
-<!-- Table -->
-
-<table class="table table-striped caption-top table-sm small" data-quarto-postprocess="true">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">No Controls</th>
-<th data-quarto-table-cell-role="th">+ Exam Score</th>
-<th data-quarto-table-cell-role="th">+ Education Field</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>HH Income Ventile Parents</td>
-<td>0.00168***<br>
-<span class="small">(0.00009)</span></td>
-<td>0.00178***<br>
-<span class="small">(0.00009)</span></td>
-<td>0.00184***<br>
-<span class="small">(0.00009)</span></td>
-</tr>
-<tr class="even">
-<td>Standardised Exam Score</td>
-<td></td>
-<td>-0.0057***<br>
-<span class="small">(0.00044)</span></td>
-<td>-0.0037***<br>
-<span class="small">(0.00044)</span></td>
-</tr>
-<tr class="odd">
-<td>Bachelor/Master FE</td>
-<td>✓</td>
-<td>✓</td>
-<td>✓</td>
-</tr>
-<tr class="even">
-<td>Observations</td>
-<td>602,267</td>
-<td>602,267</td>
-<td>602,267</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p>Instead, personal connections could be an explanation. What if the most important ingredient to finding an internship is personal connections, and rich students simply have more valuable connections than poor students? We plan to test this explanation by using data on a person’s relationships, for example family relationships, colleagues, or neighbors. An interesting test would be whether conditional on having a relationship with someone who works in a certain industry, a rich and a poor student are equally likely to intern in that industry.</p>
-<p>A third explanation for the inequality between rich and poor students could be opportunity costs. Internships bear opportunity costs because they pay less than the minimum wage, and regular student jobs paying at least the minimum wage are common. Moreover, to be eligible for internships, students often need to extend their enrollment and pay additional tuition fees.</p>
-<div class="columns">
-<div class="column">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/relevant_jobs_vs_income.PNG" class="img-fluid figure-img" alt="Relevant Jobs"></p>
-<figcaption>Rich students work to gain experience, poor students work to survive</figcaption>
-</figure>
-</div>
-</div><div class="column">
-<p><img src="../../img/survival_job_vs_income.PNG" class="img-fluid" data-fig-width="100%" alt="Survival Jobs"></p>
-</div>
-</div>
-<p>The data confirms that opportunity costs are relevant. While rich students work more hours in internships, poor students work more hours in regular jobs. To dig deeper we split regular jobs into two categories: career jobs that are related to your field of study, and survival jobs such as waiting in a restaurant. Rich students are more likely to work in a career job, and poor students are more likely to work in a survival job.</p>
+<section id="motivation-and-relevance" class="level3">
+<h3 class="anchored" data-anchor-id="motivation-and-relevance">Motivation and relevance</h3>
+<p>The net effect of shorter degrees on educational attainment and earnings is theoretically ambiguous because the reform simultaneously shifts two margins that work in opposite directions. On the extensive margin, shorter degrees lower barriers to university entry: students who previously found a 4- to 5-year commitment too costly might now enroll in the more accessible 3-year program. These marginal students gain access to higher-paying jobs requiring university credentials, but must delay labour-market entry and forego earnings while studying. On the intensive margin, the reform creates an earlier exit option: students who would have completed 4-5 years under the old system might now stop after 3 years with a bachelor’s degree. These students enter the labour market sooner and accumulate more work experience by any given age, but potentially sacrifice human capital from the foregone years of education. Which effect dominates—and thus whether shorter degrees increase or decrease total years of schooling and earnings on net—is an empirical question that speaks directly to the optimal design of higher education systems.</p>
 </section>
-<section id="does-it-matter" class="level3">
-<h3 class="anchored" data-anchor-id="does-it-matter">Does it matter?</h3>
-<p>Whether the internship inequality really matters, depends on how high the returns to doing an internship are. Internships are associated with more than 50% higher wages three years after graduation, and still more than 20% higher wages seven years after graduation, when controlling for observables related to education. Of course, this is only a correlation, but it suggests that internships have either large wage returns or are done by those people who do well in the labor market for other reasons too. Moreover, in a simple exercise we calculate the inequality in a student’s own wages seven years after graduation and see that doing an internship accounts for more than ten percent of that inequality.</p>
+<section id="setting-and-identification" class="level3">
+<h3 class="anchored" data-anchor-id="setting-and-identification">Setting and identification</h3>
+<p>Portugal’s transition to the Bologna structure was remarkably sharp: all programs were restructured within two academic years, 2006 and 2007. With a standard university entry age of 18, cohorts turning 18 in 2007 or later faced the new system, generating a cohort-based discontinuity in reform exposure at the time of university enrollment decisions. I estimate a donut RD specification around the 2007 cohort cutoff (excluding the 2006 cohort) with linear trends on either side. Manipulation tests show no discontinuity in the birth-cohort density at the cutoff, and I find no evidence of strategic delay into university around the reform (share of individuals working between high school and university remains unchanged).</p>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>The analysis uses Quadros de Pessoal (QP), a universal private-sector linked employer–employee panel (2000–2023), with detailed wages, hours, occupation, education (level and field), and firm characteristics. Hourly wages are constructed from monthly compensation and deflated to 2010 euros. To control for time-specific trends, I index hourly wages by hourly wages of older, unaffected cohorts observed in the same calendar year. Additionally, I create a cumulative earnings variable<br>
+that captures both timing effects (delayed entry for new university students versus earlier entry for those who before completed longer degrees and now complete shorter degrees) and human capital effects (gains from more education versus potential losses from compression), providing a welfare-relevant measure that integrates all mechanisms through which the reform operates. To benchmark selection, I complement QP with nationally representative Labor Force Survey (LFS) microdata representative of the whole population.</p>
+</section>
+<section id="main-findings" class="level3">
+<h3 class="anchored" data-anchor-id="main-findings">Main findings</h3>
+<p>The reform raised university attainment by 1.5 pp in QP and 1.8 pp in LFS (baseline 23.6% and 18.0%), with the first-cycle (bachelor) margin accounting for most of the increase. Proxies for schooling indicate a net rise of roughly 0.25–0.33 years (LFS age at completion +0.254; QP age at labour-market entry +0.327). In both QP and LFS samples, effects are stronger for women. Healthcare (excluding medicine) completion—the only program that became longer under Bologna—declined by 1.5 pp (31% relative to baseline), while STEM rose by 1.2 pp (22%), and Economics by 0.3 pp (10%). These shifts are, again, concentrated among women, and validated using the LFS sample.</p>
+<p><img src="../../img/BP_PT_education_outcomes.png" class="img-fluid"></p>
+<p>Relative hourly wages rise by 3.8% at the cutoff (4.2% for women; 3.3% for men). Back-of-the-envelope calculations using the schooling proxies imply returns per additional year of education in the 10–15% range. A decomposition using an AKM model with individual, firm, and occupation effects shows that 66% of the wage gain is an individual component purged of sorting, 24% operates through firm sorting, while the occupation component is negligible. Cumulative earnings are lower in the mid-20s, highlighting foregone earnings as more students study, but turn positive by the early 30s.</p>
+<p><img src="../../img/BP_PT_earnings.png" class="img-fluid"></p>
+<p>Patterns are similar by gender, yet women catch up through faster growth. Post-reform women are more likely to transition into higher-paying firms in the first years after graduation and exhibit steeper early-career wage growth.</p>
+<p><img src="../../img/BP_PT_earlycareer.png" class="img-fluid"></p>
+<p>These mobility and growth effects are driven by individuals graduating in Healthcare, STEM, and Economics, indicating that the positive impacts of degree shortening are partly composition driven: the reform reallocates students toward fields of study that offer steeper wage ladders, i.e.&nbsp;toward STEM and Economics and away from Healthcare.</p>
+<p><img src="../../img/BP_PT_earlycareer_byfield.png" class="img-fluid"></p>
+</section>
+<section id="robustness" class="level3">
+<h3 class="anchored" data-anchor-id="robustness">Robustness</h3>
+<p>Education results are robust across QP and LFS samples (addressing private-sector selection), to alternative bandwidths in the RD, to indexing wages by calendar-year–gender cells, and to “donut” exclusion around the cutoff.</p>
+</section>
+<section id="implications" class="level3">
+<h3 class="anchored" data-anchor-id="implications">Implications</h3>
+<p>Compressing degree length expanded access, shifted students—especially women—toward higher-return fields, and raised early-career wages mostly via improved worker quality, with a meaningful contribution from improved firm sorting. Although there are transitional earnings losses in the mid-20s, net effects turn positive by the early 30s, as measured by cumulative earnings. On balance, Portugal’s Bologna reform delivers a ’’less-is-more” outcome: gains from access and reallocation across fields dominate potential losses from curricular compression.</p>
 
 
 </section>
@@ -385,7 +327,7 @@ cookieconsent.run({
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/emmascandolo\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

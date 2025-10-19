@@ -227,12 +227,12 @@ window.Quarto = {
 <div class="research project-list">
   <ul class="list">
     
-      <li class="project" data-index="0" data-listing-date-sort="1750197600000" data-listing-file-modified-sort="1756366657499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="617">
+      <li class="project" data-index="0" data-listing-date-sort="1760742000000" data-listing-file-modified-sort="1760809567482" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1202">
         <div class="project-content">
           <div class="project-info">
             <p class="project-title">
               <a href="../research/internships/index.html">
-                Inequality in Internships
+                Less is More? How Shorter University Degrees Affect Educational and Early-Career Outcomes
               </a>
             </p>
             
@@ -240,14 +240,14 @@ window.Quarto = {
                 <p>
                   with 
                   
-                    Omry Yoresh
+                    Emma Scandolo
                   
                 </p>
               </div>
             
             
               <div class="project-description">
-                <p>Rich university students in NL are 39% more likely to do an internship than poor students. In this paper we explore whether networks and opportunity costs contribute to this inequality, and how it affects income inequality later in life.</p>
+                <p>Before the Bologna Process, Portugal already had a two-tiered higher education system, with a five-year licenciatura followed by an optional two-year master’s degree. The reform shortened the first cycle to three years, aligning it with the new bachelor’s structure introduced across Europe and further standardizing progression to the master’s level. Using administrative data, I study the impact this has on university attainment, years of schooling, field of study and occupation choice, and early-career patterns.</p>
               </div>
             
             <div class="project-details-listing">
@@ -256,9 +256,9 @@ window.Quarto = {
                   
                     <li class="project-link">
                       
-                        <a href="../../papers/internships.pdf">
+                        <a href="../../papers/BP_Portugal_Scandolo.pdf">
                       
-                          <i class="bi bi-easel"></i> Slides
+                          <i class="bi bi-file-earmark-pdf"></i> Paper
                         </a>
                     </li>
                   
@@ -268,24 +268,33 @@ window.Quarto = {
           </div>
           
             <div class="project-plot">
-              <img src="../../img/internships.png" alt="Inequality in Internships plot">
+              <img src="../../img/BP_PT_education_outcomes.png" alt="Less is More? How Shorter University Degrees Affect Educational and Early-Career Outcomes plot">
             </div>
           
         </div>
       </li>
     
-      <li class="project" data-index="1" data-listing-date-sort="1717192800000" data-listing-file-modified-sort="1756366657499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+      <li class="project" data-index="1" data-listing-date-sort="1760742000000" data-listing-file-modified-sort="1760810580435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
         <div class="project-content">
           <div class="project-info">
             <p class="project-title">
               <a href="../research/student_employment/index.html">
-                Student Employment in England after the Maintenance Grant Removal
+                How do Students React to more Flexible University Systems? The Bologna Process in Italy
               </a>
             </p>
             
+              <div class="authors">
+                <p>
+                  with 
+                  
+                    Emma Scandolo
+                  
+                </p>
+              </div>
+            
             
               <div class="project-description">
-                <p>Student employment increased after the UK removed the means-tested maintenance grant. In my paper I analyse whether the grant removal caused an increase in employment by comparing eligible and ineligible students.</p>
+                <p>Before the Bologna Process, Italian students faced a single choice regarding higher education. Either enrol in a long university program lasting 4–5 years (single-cycle) or not attend university at all. The reform introduced greater flexibility by restructuring degrees into two cycles—a three-year bachelor’s program followed by an optional two-year master’s degree. I study the impact this has on students' educational choices and wages by the early 30s.</p>
               </div>
             
             <div class="project-details-listing">
@@ -294,9 +303,9 @@ window.Quarto = {
                   
                     <li class="project-link">
                       
-                        <a href="../../papers/maintenance_grant.pdf">
+                        <a href="../../papers/BP_Italy_Scandolo.pdf">
                       
-                          <i class="bi bi-file-earmark-pdf"></i> PDF
+                          <i class="bi bi-file-earmark-pdf"></i> Paper
                         </a>
                     </li>
                   
@@ -306,7 +315,7 @@ window.Quarto = {
           </div>
           
             <div class="project-plot">
-              <img src="../../img/employment_ts.png" alt="Student Employment in England after the Maintenance Grant Removal plot">
+              <img src="../../img/BP_Italy_first_stage.png" alt="How do Students React to more Flexible University Systems? The Bologna Process in Italy plot">
             </div>
           
         </div>
@@ -393,7 +402,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/emmascandolo\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
