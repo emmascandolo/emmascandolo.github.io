@@ -1,0 +1,16 @@
+---
+title: "Unpacking Successful Literacy Interventions: Evidence from Liberia"
+date: 2025-10-18
+description: This paper examines experimentally the impact of a literacy intervention for primary school students in Liberia, and the main mechanisms underlying this impact.
+author:
+  - name: Emma Scandolo
+    url: https://emmascandolo.github.io
+    affiliation: UCL
+  - name: Pedro Carneiro
+    affiliation: UCL
+  - name: Federico Tagliati
+    affiliation: Bank of Spain
+format: html
+---
+
+## 
