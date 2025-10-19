@@ -10,6 +10,11 @@ author:
     affiliation: UCL
   - name: Federico Tagliati
     affiliation: Bank of Spain
+pub-info:
+  links:
+    - name: Paper
+      url: ../../papers/BP_Italy_Scandolo.pdf
+      icon: bi bi-file-earmark-pdf
 format: html
 ---
 
