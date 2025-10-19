@@ -20,4 +20,4 @@ about:
 
 Hi there, I'm Emma!
 
-Whenever I'm not pretending to be an elite runner, I am a PhD student at the UCL Econ Department. Check out my [research](/research/ "Ben Dahmen - Research") or my [CV](/cv.html "Ben Dahmen - CV"), and feel free to get in touch via email.
+Whenever I'm not pretending to be an elite runner, I am a PhD student at the UCL Econ Department - which mostly means running regressions instead of marathons. Check out my [research](/research/ "Ben Dahmen - Research") or my [CV](/cv.html "Ben Dahmen - CV"), and feel free to get in touch via email.
