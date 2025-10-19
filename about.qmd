@@ -4,4 +4,4 @@ about:
   template: jolla
 ---
 
-I am an Economics PhD Student at LSE, interested in Public and Labor Economics.
+I am an Economics PhD Student at UCL, interested in Education and Labor Economics.
