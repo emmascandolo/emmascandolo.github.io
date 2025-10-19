@@ -1,0 +1,32 @@
+---
+title: "Quantifying the Cost of Inaction on Violence against Children and Violence against Women in Italy"
+date: 2025-10-18
+description: Violence against women and children is a major public health problem in Italy, with significant consequences for individual victims and society. We quantify the costs of inaction. Our estimates suggest a lifetime cost of violence of €50,276,903,464.55, equivalent to 2.36% of the Italian GDP in 2024.
+author:
+  - name: Emma Scandolo
+    url: https://emmascandolo.github.io
+    affiliation: UCL
+  - name: Gabriella Conti
+    url: http://gabriellaconti.org
+    affiliation: UCL
+  - name: Elena Pizzo
+    url: https://profiles.ucl.ac.uk/44069-elena-pizzo
+    affiliation: UCL
+  - name: Francesca Marazzi
+    url: https://sites.google.com/view/francescamarazzi/home
+    affiliation: University of Rome Tor Vergata
+pub-info:
+  links:
+    - name: Paper
+      url: ../../papers/IT_violence_costing.pdf
+      icon: bi bi-file-earmark-pdf
+format: html
+---
+
+## Abstract
+
+Italy ranks high among EU countries for incidents of violence against women (VAW), with approximately 40% of women reporting at least one such episode. Regarding violence against children, about 27% of adults recall experiencing physical harm during childhood, and half report harm, neglect, or poor parental relationships. The last comprehensive studies on the cost of child maltreatment and violence against women are more than ten years old, do not include some costs due to data unavailability and lacks econometric modeling; hence, there is a need to compute updated and more comprehensive estimates of the costs of this phenomenon.
+
+We perform a cost analysis is performed assuming a societal perspective that includes both the cost for the national health system and for the society, in terms of productivity losses and out-of-pocket costs. Where data allows, we distinguish between short-term and long-term costs: if violence occurred in the year before the interview, we assess short-term costs only (for the year following the violence), while when violence occurred more than a year before the interview, we add such short-term costs to the costs until retirement or death.
+
+Previous works estimated the cost of VAW in Italy to be 16.7 billion Euros (19.9 bil in 2024) (Badalassi et al., 2013), and the cost of VAC to be 13 billion Euros (15.5 bil in 2024) (Terres des Hommes & CISMAI, 2013). Our work contributes to this literature by using the latest available data sources and more rigorous econometric modelling to estimate the impact of violence. Our estimates suggest a lifetime cost of VAW of €50,276,903,464.55, equivalent to 2.36% of the Italian GDP in 2024.
