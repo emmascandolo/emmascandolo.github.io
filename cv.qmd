@@ -4,7 +4,7 @@ format:
   html:
     toc: true
   pdf:
-    author: Ben Dahmen
+    author: Emma Scandolo
 css: css/cv.css
 format-links: [pdf]
 ---
@@ -15,23 +15,25 @@ emma.scandolo.21\@ucl.ac.uk
 
 ## EDUCATION
 
-**PhD -- Economics** <br> *University College London* *Sep 2021 --- Present*
+**PhD -- Economics** <br> *University College London* [*Sep 2021 --- Present*]{.cvdate}
 
 ::: print-only
 -   Research Interests: Economics of Education, Labor Economics
 :::
 
-**MSc -- International Economics** <br> *Erasmus University Rotterdam* *Sep 2019 --- Sep 2020*
+**MSc -- International Economics** <br> *Erasmus University Rotterdam* [*Sep 2019 --- Sep 2020*]{.cvdate}
 
 **BSc -- Economics & Business Economics** <br> *Erasmus University Rotterdam* [*Sep 2016 --- Jul 2019*]{.cvdate}
 
 ## WORK EXPERIENCE {style="page-break-before: always"}
 
-**Research Assistant to Gabriella Conti and Attila Lindner** <br> *University College London* *Jan 2023 -- October 2025*
+**Research Assistant to Gabriella Conti and Attila Lindner** <br> *University College London* [*Jan 2023 -- October 2025*]{.cvdate}
 
-**Impact Evaluation Intern** <br> *European Bank for Reconstruction and Development (EBRD)* *Oct 2020 -- Sep 2021*
+**Impact Evaluation Intern** <br> *European Bank for Reconstruction and Development (EBRD)* [*Oct 2020 -- Sep 2021*]{.cvdate}
 
-**Impact Evaluation Intern** <br> *Dutch Development Bank (FMO)* *Jun 2020 -- Oct 2020*
+**Impact Evaluation Intern** <br> *Dutch Development Bank (FMO)* [*Jun 2020 -- Oct 2020*]{.cvdate}
+
+**Intern** <br> *UNESCO Organization for Women in Science for the Developing World* [*July 2017 -- Aug 2017*]{.cvdate}
 
 ## TEACHING
 
