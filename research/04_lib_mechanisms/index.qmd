@@ -1,5 +1,5 @@
 ---
-title: "Unpacking Successful Literacy Interventions: Evidence from Liberia"
+title: "Unpacking Successful Literacy Interventions. Evidence from Liberia"
 date: 2025-10-18
 description: This paper examines experimentally the impact of a literacy intervention for primary school students in Liberia, and the main mechanisms underlying this impact.
 author:
