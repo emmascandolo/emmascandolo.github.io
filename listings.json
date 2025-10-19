@@ -2,9 +2,9 @@
   {
     "listing": "/research/index.html",
     "items": [
-      "/research/it_bologna/index.html",
-      "/research/it_gbv/index.html",
-      "/research/pt_bologna/index.html"
+      "/research/01_pt_bologna/index.html",
+      "/research/02_it_bologna/index.html",
+      "/research/03_it_gbv/index.html"
     ]
   }
 ]
