@@ -2,7 +2,7 @@
 title: "Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings"
 subtitle: "Evidence from Portugal's Bologna Process"
 date: 2026-09-17
-description: Portugal's Bologna reform shortened and restructured university degrees. Using administrative data and a regression discontinuity design, I study how the reform changed university attainment, years of schooling, field choices, and early-career earnings.
+description: University is risky when students can invest several years and still leave without a qualification. Portugal's Bologna reform introduced a credible three-year credential, giving students an earlier exit and less to lose from enrolling. University completion rose by 8-9%, especially among women; students shifted toward STEM and economics; and cumulative earnings, after dipping in the twenties, rose by the early thirties.
 plot: ../../img/BP_PT_education_outcomes.png
 author:
   - name: Emma Scandolo

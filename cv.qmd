@@ -27,6 +27,8 @@ emma.scandolo.21\@ucl.ac.uk
 
 ## WORK EXPERIENCE {style="page-break-before: always"}
 
+**Economist Intern** <br> *Amazon, Economist Team - London* [*Jun 2026 -- Sep 2026*]{.cvdate}
+
 **Research Assistant to Gabriella Conti and Attila Lindner** <br> *University College London* [*Jan 2023 -- October 2025*]{.cvdate}
 
 **Impact Evaluation Intern** <br> *European Bank for Reconstruction and Development (EBRD)* [*Oct 2020 -- Sep 2021*]{.cvdate}
@@ -47,6 +49,8 @@ emma.scandolo.21\@ucl.ac.uk
 **2024** UCL PhD Seminar, UCL Applied Micro Research Day
 **2023** UCL PhD Seminar
 
-## GRANTS
+## GRANTS AND AWARDS
+
+**UniCredit Foundation Best Paper Award in Education Economics** <br> *Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings* [*2026*]{.cvdate}
 
 **International Growth Centre (IGC)** <br> £5,000 *Scoping Fund* [*2024/25*]{.cvdate}

@@ -1,7 +1,7 @@
 ---
 title: "Unpacking Successful Literacy Interventions: Evidence from Liberia"
 date: 2026-06-15
-description: This paper examines experimentally the impact of a literacy intervention for primary school students in Liberia, and the main mechanisms underlying this impact.
+description: Why do some literacy programmes deliver large learning gains? EGRA Plus Liberia combined intensive teacher training, coaching, and instructional materials with parental and community engagement. The full programme raised reading skills by nearly one standard deviation; 43% of the impact operates through improved teaching practices and school inputs, with a further 13% working through parental investments.
 author:
   - name: Emma Scandolo
     url: https://emmascandolo.github.io
