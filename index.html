@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Emma Scandolo</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -34,14 +40,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1556652c55168a8087ff91fc7061512b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-42be7ccca91f8b144cf613dfa00ed758.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,10 +79,10 @@ ul.task-list li input[type="checkbox"] {
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -99,8 +104,6 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Emma Scandolo</span>
     </a>
@@ -146,7 +149,8 @@ cookieconsent.run({
   </div>
 </header><main class="content" id="quarto-document-content">
 <p>Hi there, I’m Emma!</p>
-<p>Whenever I’m not pretending to be an elite runner, I am a PhD student at the UCL Econ Department - which mostly means running regressions instead of marathons. Check out my <a href="./research/" title="Ben Dahmen - Research">research</a> or my <a href="./cv.html" title="Ben Dahmen - CV">CV</a>, and feel free to get in touch via email.</p>
+<p>Whenever I’m not pretending to be an elite runner, I am a PhD student at the UCL Econ Department - which mostly means running regressions instead of marathons. Check out my <a href="./research/">research</a> or my <a href="./cv.html">CV</a>, and feel free to get in touch via email.</p>
+<p>My paper <em>Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings</em> won the <strong>2026 UniCredit Foundation Best Paper Award in Education Economics</strong>. <a href="./papers/BP_Portugal_Scandolo.pdf">Paper</a> · <a href="./papers/BP_Portugal_Scandolo_Slides.pdf">Slides</a></p>
 
 
 </main> 
@@ -156,7 +160,7 @@ cookieconsent.run({
     <i class="bi bi-send"></i>
      <span class="about-link-text">emma.scandolo.21@ucl.ac.uk</span>
   </a>
-  <a href="/www.linkedin.com/in/emma-scandolo97" class="about-link" rel="" target="">
+  <a href="https://www.linkedin.com/in/emma-scandolo97" class="about-link" rel="" target="">
     <i class="bi bi-globe"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
@@ -237,7 +241,7 @@ cookieconsent.run({
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/emmascandolo\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/emmascandolo\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

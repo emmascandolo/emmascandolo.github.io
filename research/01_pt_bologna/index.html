@@ -2,19 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Emma Scandolo">
-<meta name="description" content="Before the Bologna Process, the Portuguese higher education system comprised of a five-year licenciatura followed by an optional two-year master’s degree. The reform shortened the first cycle to three years, aligning it with the new bachelor’s structure introduced across Europe. Using administrative data, I study the impact this has on university attainment, years of schooling, field of study and occupation choice, and early-career patterns.">
+<meta name="description" content="Portugal’s Bologna reform shortened and restructured university degrees. Using administrative data and a regression discontinuity design, I study how the reform changed university attainment, years of schooling, field choices, and early-career earnings.">
 
-<title>Less is More? How Shorter University Degrees Affect Educational and Early-Career Outcomes – Emma Scandolo</title>
+<title>Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings – Emma Scandolo</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,15 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1556652c55168a8087ff91fc7061512b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-42be7ccca91f8b144cf613dfa00ed758.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,10 +82,10 @@ ul.task-list li input[type="checkbox"] {
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -108,8 +113,6 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emma Scandolo</span>
     </a>
@@ -143,8 +146,8 @@ cookieconsent.run({
   <div class="quarto-title-banner page-columns page-full">
         <div class="back-nav"><a href="../../research/">← Back to research</a></div>
         <div class="quarto-title column-body">
-      <h1 class="title">Less is More? How Shorter University Degrees Affect Educational and Early-Career Outcomes</h1>
-            <p class="subtitle lead">Understanding how the Bologna Process affected students’ educational choices and early-career outcomes in Portugal</p>
+      <h1 class="title">Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings</h1>
+            <p class="subtitle lead">Evidence from Portugal’s Bologna Process</p>
           </div>
   </div>
       
@@ -152,6 +155,9 @@ cookieconsent.run({
             <ul class="project-links">
             <li class="project-link">
         <a href="../../papers/BP_Portugal_Scandolo.pdf"><i class="bi bi-file-earmark-pdf"></i> Paper</a>
+      </li>
+            <li class="project-link">
+        <a href="../../papers/BP_Portugal_Scandolo_Slides.pdf"><i class="bi bi-file-earmark-slides"></i> Slides</a>
       </li>
           </ul>
       </div>
@@ -176,7 +182,7 @@ cookieconsent.run({
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 2025</p>
+        <p class="date">September 2026</p>
       </div>
     </div>
     
@@ -216,10 +222,10 @@ cookieconsent.run({
 
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>This paper examines how students respond when university degrees become shorter, exploiting Portugal’s Bologna Process implementation as a natural experiment. Using a regression discontinuity design based on cohort age at implementation, I find that the reform increased university attainment by 1.5pp and average schooling by 0.25-0.33 years. Students shifted away from healthcare programs—where Bologna uniquely lengthened degrees—toward STEM and economics fields, with effects concentrated among females. To capture welfare impacts, I track cumulative earnings by age, which integrates both timing effects (when people enter the labor market) and human capital effects (what they earn). While cumulative earnings are initially negative through the mid-twenties due to foregone wages as more students pursue university, they turn positive by the early thirties. Treated workers experience steeper early-career wage growth and increased sorting into higher-paying firms, particularly among females who shifted into higher-return fields. I show that 24% of the wage increase operates through the workplace channel, whereas 66% is associated exclusively to the individual. Overall, gains from expanding university access and reallocating students toward higher-paying fields outweigh losses from degree compression, validating the ’’less is more” outcome policymakers intended.</p>
+<p>This paper examines how students respond when university degrees become shorter, exploiting Portugal’s Bologna Process implementation as a natural experiment. Using a regression discontinuity design that compares cohorts just before and after the reform, I document a 9% increase in university attainment and a 0.14 increase in years of schooling on net. Individuals reallocate across fields, from healthcare programs toward STEM and economics, with stronger effects for women. Post-reform cohorts forgo earnings at younger ages because they spend longer in education, but overtake pre-reform cohorts by their early thirties as human-capital gains more than offset the initial losses. Hourly wages increase by 1.6%, with 30% of this effect operating through the workplace channel. Overall, gains from expanding university access and reallocating students toward higher-paying fields outweigh losses from degree compression.</p>
 <section id="question-and-contribution" class="level3">
 <h3 class="anchored" data-anchor-id="question-and-contribution">Question and contribution</h3>
-<p>When university degrees are shortened, do the gains from attracting more people into university and more demanding but higher-paying fields outweigh the losses from compressing training into less time? I answer this by exploiting Portugal’s implementation of the Bologna Process, which reduced most first-cycle degrees from 4–5 to 3 years. This paper provides the first comprehensive evidence on how shortening degree length affects: (i) educational attainment and years of schooling, (ii) fields of study, (iii) early-career earnings, and (iv) wage formation via worker quality versus firm sorting. Although this reform affected most continental European countries, there is surprisingly little evidence on its impact beyond enrolment effects. This paper fills that gap. I find that university attainment increases, and average schooling rises by 0.25–0.33 years. Field composition shifts markedly: graduates from Healthcare decline by 30%, while STEM increases by 22% and Economics by 10%. Cumulative earnings are higher by the early thirties, and relative hourly wages rise by 3.8%. Effects are consistently stronger for women, who experience faster wage growth in the first years of employment and are more likely to move to higher-paying firms. These findings complement the literature on policies that extend compulsory schooling and on heterogeneous college returns by field of study by examining a reform that reduces time-to-degree in higher education.</p>
+<p>When university degrees are shortened, do the gains from attracting more people into university and more demanding but higher-paying fields outweigh the losses from compressing training into less time? I answer this by exploiting Portugal’s implementation of the Bologna Process, which reduced most first-cycle degrees from 4–5 to 3 years. This paper provides comprehensive evidence on how shortening degree length affects educational attainment, years of schooling, fields of study, early-career earnings, and wage formation through worker quality and workplace sorting. Although this reform affected most continental European countries, there is surprisingly little evidence on its effects beyond enrolment. Field composition shifts markedly: graduates from healthcare decline by 30%, while STEM increases by 22% and economics by 10%. Effects are stronger for women, and cumulative earnings are higher by the early thirties.</p>
 </section>
 <section id="motivation-and-relevance" class="level3">
 <h3 class="anchored" data-anchor-id="motivation-and-relevance">Motivation and relevance</h3>
@@ -236,9 +242,9 @@ that captures both timing effects (delayed entry for new university students ver
 </section>
 <section id="main-findings" class="level3">
 <h3 class="anchored" data-anchor-id="main-findings">Main findings</h3>
-<p>The reform raised university attainment by 1.5 pp in QP and 1.8 pp in LFS (baseline 23.6% and 18.0%), with the first-cycle (bachelor) margin accounting for most of the increase. Proxies for schooling indicate a net rise of roughly 0.25–0.33 years (LFS age at completion +0.254; QP age at labour-market entry +0.327). In both QP and LFS samples, effects are stronger for women. Healthcare (excluding medicine) completion—the only program that became longer under Bologna—declined by 1.5 pp (31% relative to baseline), while STEM rose by 1.2 pp (22%), and Economics by 0.3 pp (10%). These shifts are, again, concentrated among women, and validated using the LFS sample.</p>
+<p>The reform increased university attainment by 9% and years of schooling by 0.14 on net, with stronger effects for women. Healthcare completion—the only program that became longer under Bologna—declined by 30%, while STEM rose by 22% and economics by 10%.</p>
 <p><img src="../../img/BP_PT_education_outcomes.png" class="img-fluid"></p>
-<p>Relative hourly wages rise by 3.8% at the cutoff (4.2% for women; 3.3% for men). Back-of-the-envelope calculations using the schooling proxies imply returns per additional year of education in the 10–15% range. A decomposition using an AKM model with individual, firm, and occupation effects shows that 66% of the wage gain is an individual component purged of sorting, 24% operates through firm sorting, while the occupation component is negligible. Cumulative earnings are lower in the mid-20s, highlighting foregone earnings as more students study, but turn positive by the early 30s.</p>
+<p>Hourly wages rise by 1.6% at the cutoff. A decomposition using an AKM model shows that 30% of the wage effect operates through the workplace channel. Cumulative earnings are lower at younger ages, reflecting foregone earnings while more students remain in education, but turn positive by the early thirties.</p>
 <p><img src="../../img/BP_PT_earnings.png" class="img-fluid"></p>
 <p>Patterns are similar by gender, yet women catch up through faster growth. Post-reform women are more likely to transition into higher-paying firms in the first years after graduation and exhibit steeper early-career wage growth.</p>
 <p><img src="../../img/BP_PT_earlycareer.png" class="img-fluid"></p>
@@ -331,7 +337,7 @@ that captures both timing effects (delayed entry for new university students ver
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/emmascandolo\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/emmascandolo\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
