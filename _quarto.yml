@@ -1,8 +1,12 @@
 project:
   type: website
+  resources:
+    - google38788d6a75dcb72f.html
+    - robots.txt
 
 website:
   title: "Emma Scandolo"
+  site-url: https://emmascandolo.github.io
   cookie-consent: true
   navbar:
     left:

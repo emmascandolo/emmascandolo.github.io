@@ -9,7 +9,7 @@ about:
       href: mailto:emma.scandolo.21@ucl.ac.uk
     - icon: globe
       text: LinkedIn
-      href: www.linkedin.com/in/emma-scandolo97
+      href: https://www.linkedin.com/in/emma-scandolo97
     - icon: twitter-x
       text: Emma Scandolo
       href: https://x.com/emmascandolo
@@ -20,4 +20,6 @@ about:
 
 Hi there, I'm Emma!
 
-Whenever I'm not pretending to be an elite runner, I am a PhD student at the UCL Econ Department - which mostly means running regressions instead of marathons. Check out my [research](/research/ "Ben Dahmen - Research") or my [CV](/cv.html "Ben Dahmen - CV"), and feel free to get in touch via email.
+Whenever I'm not pretending to be an elite runner, I am a PhD student at the UCL Econ Department - which mostly means running regressions instead of marathons. Check out my [research](/research/) or my [CV](/cv.html), and feel free to get in touch via email.
+
+My paper *Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings* won the **2026 UniCredit Foundation Best Paper Award in Education Economics**. [Paper](/papers/BP_Portugal_Scandolo.pdf) · [Slides](/papers/BP_Portugal_Scandolo_Slides.pdf)

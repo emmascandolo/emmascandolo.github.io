@@ -1,8 +1,8 @@
 ---
-title: "Less is More? How Shorter University Degrees Affect Educational and Early-Career Outcomes"
-subtitle: "Understanding how the Bologna Process affected students' educational choices and early-career outcomes in Portugal"
-date: 2025-10-18
-description: Before the Bologna Process, the Portuguese higher education system comprised of a five-year licenciatura followed by an optional two-year master’s degree. The reform shortened the first cycle to three years, aligning it with the new bachelor’s structure introduced across Europe. Using administrative data, I study the impact this has on university attainment, years of schooling, field of study and occupation choice, and early-career patterns.
+title: "Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings"
+subtitle: "Evidence from Portugal's Bologna Process"
+date: 2026-09-17
+description: Portugal's Bologna reform shortened and restructured university degrees. Using administrative data and a regression discontinuity design, I study how the reform changed university attainment, years of schooling, field choices, and early-career earnings.
 plot: ../../img/BP_PT_education_outcomes.png
 author:
   - name: Emma Scandolo
@@ -13,16 +13,19 @@ pub-info:
     - name: Paper
       url: ../../papers/BP_Portugal_Scandolo.pdf
       icon: bi bi-file-earmark-pdf
+    - name: Slides
+      url: ../../papers/BP_Portugal_Scandolo_Slides.pdf
+      icon: bi bi-file-earmark-slides
 format: html
 ---
 
 ## Abstract
 
-This paper examines how students respond when university degrees become shorter, exploiting Portugal's Bologna Process implementation as a natural experiment. Using a regression discontinuity design based on cohort age at implementation, I find that the reform increased university attainment by 1.5pp and average schooling by 0.25-0.33 years. Students shifted away from healthcare programs—where Bologna uniquely lengthened degrees—toward STEM and economics fields, with effects concentrated among females. To capture welfare impacts, I track cumulative earnings by age, which integrates both timing effects (when people enter the labor market) and human capital effects (what they earn). While cumulative earnings are initially negative through the mid-twenties due to foregone wages as more students pursue university, they turn positive by the early thirties. Treated workers experience steeper early-career wage growth and increased sorting into higher-paying firms, particularly among females who shifted into higher-return fields. I show that 24% of the wage increase operates through the workplace channel, whereas 66% is associated exclusively to the individual. Overall, gains from expanding university access and reallocating students toward higher-paying fields outweigh losses from degree compression, validating the ''less is more" outcome policymakers intended.
+This paper examines how students respond when university degrees become shorter, exploiting Portugal's Bologna Process implementation as a natural experiment. Using a regression discontinuity design that compares cohorts just before and after the reform, I document a 9% increase in university attainment and a 0.14 increase in years of schooling on net. Individuals reallocate across fields, from healthcare programs toward STEM and economics, with stronger effects for women. Post-reform cohorts forgo earnings at younger ages because they spend longer in education, but overtake pre-reform cohorts by their early thirties as human-capital gains more than offset the initial losses. Hourly wages increase by 1.6%, with 30% of this effect operating through the workplace channel. Overall, gains from expanding university access and reallocating students toward higher-paying fields outweigh losses from degree compression.
 
 ### Question and contribution
 
-When university degrees are shortened, do the gains from attracting more people into university and more demanding but higher-paying fields outweigh the losses from compressing training into less time? I answer this by exploiting Portugal’s implementation of the Bologna Process, which reduced most first-cycle degrees from 4–5 to 3 years. This paper provides the first comprehensive evidence on how shortening degree length affects: (i) educational attainment and years of schooling, (ii) fields of study, (iii) early-career earnings, and (iv) wage formation via worker quality versus firm sorting. Although this reform affected most continental European countries, there is surprisingly little evidence on its impact beyond enrolment effects. This paper fills that gap. I find that university attainment increases, and average schooling rises by 0.25–0.33 years. Field composition shifts markedly: graduates from Healthcare decline by 30%, while STEM increases by 22% and Economics by 10%. Cumulative earnings are higher by the early thirties, and relative hourly wages rise by 3.8%. Effects are consistently stronger for women, who experience faster wage growth in the first years of employment and are more likely to move to higher-paying firms. These findings complement the literature on policies that extend compulsory schooling and on heterogeneous college returns by field of study by examining a reform that reduces time-to-degree in higher education.
+When university degrees are shortened, do the gains from attracting more people into university and more demanding but higher-paying fields outweigh the losses from compressing training into less time? I answer this by exploiting Portugal’s implementation of the Bologna Process, which reduced most first-cycle degrees from 4–5 to 3 years. This paper provides comprehensive evidence on how shortening degree length affects educational attainment, years of schooling, fields of study, early-career earnings, and wage formation through worker quality and workplace sorting. Although this reform affected most continental European countries, there is surprisingly little evidence on its effects beyond enrolment. Field composition shifts markedly: graduates from healthcare decline by 30%, while STEM increases by 22% and economics by 10%. Effects are stronger for women, and cumulative earnings are higher by the early thirties.
 
 ### Motivation and relevance
 
@@ -39,11 +42,11 @@ that captures both timing effects (delayed entry for new university students ver
 
 ### Main findings
 
-The reform raised university attainment by 1.5 pp in QP and 1.8 pp in LFS (baseline 23.6% and 18.0%), with the first-cycle (bachelor) margin accounting for most of the increase. Proxies for schooling indicate a net rise of roughly 0.25–0.33 years (LFS age at completion +0.254; QP age at labour-market entry +0.327). In both QP and LFS samples, effects are stronger for women. Healthcare (excluding medicine) completion—the only program that became longer under Bologna—declined by 1.5 pp (31% relative to baseline), while STEM rose by 1.2 pp (22%), and Economics by 0.3 pp (10%). These shifts are, again, concentrated among women, and validated using the LFS sample.
+The reform increased university attainment by 9% and years of schooling by 0.14 on net, with stronger effects for women. Healthcare completion—the only program that became longer under Bologna—declined by 30%, while STEM rose by 22% and economics by 10%.
 
 ![](/img/BP_PT_education_outcomes.png)
 
-Relative hourly wages rise by 3.8% at the cutoff (4.2% for women; 3.3% for men). Back-of-the-envelope calculations using the schooling proxies imply returns per additional year of education in the 10–15% range. A decomposition using an AKM model with individual, firm, and occupation effects shows that 66% of the wage gain is an individual component purged of sorting, 24% operates through firm sorting, while the occupation component is negligible. Cumulative earnings are lower in the mid-20s, highlighting foregone earnings as more students study, but turn positive by the early 30s.
+Hourly wages rise by 1.6% at the cutoff. A decomposition using an AKM model shows that 30% of the wage effect operates through the workplace channel. Cumulative earnings are lower at younger ages, reflecting foregone earnings while more students remain in education, but turn positive by the early thirties.
 
 ![](/img/BP_PT_earnings.png)
 
