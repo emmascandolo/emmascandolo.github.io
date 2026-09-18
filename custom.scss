@@ -46,32 +46,6 @@ $navbar-fg: $main-color;
   margin-bottom: 1.5em;
 }
 
-// Homepage research summaries
-#selected-research {
-  max-width: 52rem;
-  margin: 2.5rem auto 0;
-  text-align: left;
-
-  > h2 {
-    margin-bottom: 1.25rem;
-  }
-
-  section.level3 {
-    padding: 1.5rem 0 2rem;
-    border-top: 1px solid rgba($accent-color, 0.22);
-
-    h3 {
-      margin-top: 0;
-      font-size: 1.35rem;
-      line-height: 1.35;
-    }
-
-    p {
-      line-height: 1.65;
-    }
-  }
-}
-
 // Research listing page
 .project-list {
   ul {
