@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://emmascandolo.github.io/research/index.html</loc>
-    <lastmod>2026-10-05T11:51:36.626Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmascandolo.github.io/research/04_lib_mechanisms/index.html</loc>
-    <lastmod>2026-10-05T11:51:36.626Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmascandolo.github.io/research/03_it_gbv/index.html</loc>
-    <lastmod>2026-10-05T11:51:36.626Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmascandolo.github.io/index.html</loc>
-    <lastmod>2026-10-05T11:51:36.547Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmascandolo.github.io/cv.html</loc>
-    <lastmod>2026-10-05T11:51:36.488Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmascandolo.github.io/about.html</loc>
-    <lastmod>2026-10-05T11:51:36.488Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmascandolo.github.io/research/01_pt_bologna/index.html</loc>
-    <lastmod>2026-10-05T11:51:36.626Z</lastmod>
+    <loc>https://emmascandolo.github.io/research/05_parental_endowments/index.html</loc>
+    <lastmod>2026-10-05T12:05:33.435Z</lastmod>
   </url>
   <url>
     <loc>https://emmascandolo.github.io/research/02_it_bologna/index.html</loc>
-    <lastmod>2026-10-05T11:51:36.626Z</lastmod>
+    <lastmod>2026-10-05T12:05:33.435Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/research/01_pt_bologna/index.html</loc>
+    <lastmod>2026-10-05T12:05:33.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/about.html</loc>
+    <lastmod>2026-10-05T12:05:33.316Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/cv.html</loc>
+    <lastmod>2026-10-05T12:05:33.316Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/index.html</loc>
+    <lastmod>2026-10-05T12:05:33.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/research/03_it_gbv/index.html</loc>
+    <lastmod>2026-10-05T12:05:33.435Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/research/04_lib_mechanisms/index.html</loc>
+    <lastmod>2026-10-05T12:05:33.435Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmascandolo.github.io/research/index.html</loc>
+    <lastmod>2026-10-05T12:05:33.435Z</lastmod>
   </url>
 </urlset>

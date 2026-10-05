@@ -6,8 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Pedro Carneiro">
+<meta name="author" content="Neil Davies">
+<meta name="author" content="Sebastian Espinoza-Rojas">
+<meta name="author" content="Emma Scandolo">
+<meta name="description" content="Using the UK Millennium Cohort Study, this paper examines whether parents compensate for or reinforce differences in children’s endowments by relating investments throughout childhood and adolescence to children’s educational-attainment polygenic scores, conditional on their parents’ scores.">
 
-<title>Research – Emma Scandolo</title>
+<title>Parental Responses to Child Endowments – Emma Scandolo</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,27 +34,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6fb91ab8c3ac9bf2a5d86551517fcfcb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6fb91ab8c3ac9bf2a5d86551517fcfcb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,35 +80,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-publish','listing-engines','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-subtitle','listing-date','listing-description','listing-plot','listing-author','listing-pub-info','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-publish","listing-engines","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-subtitle","listing-date","listing-description","listing-plot","listing-author","listing-pub-info","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-papers'] = new List('listing-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 <script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
@@ -131,47 +105,18 @@ cookieconsent.run({
       }
 </style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emma Scandolo</span>
     </a>
   </div>
@@ -181,15 +126,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv.html"> 
+    <a class="nav-link" href="../../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -200,257 +145,86 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block research default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block research default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-        <div class="quarto-title column-page">
-      <h1 class="title">Research</h1>
+        <div class="back-nav"><a href="../../research/">← Back to research</a></div>
+        <div class="quarto-title column-body">
+      <h1 class="title">Parental Responses to Child Endowments</h1>
           </div>
   </div>
       
+    <div class="project-details">
+          </div>
     
-  
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-heading">Affiliations</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author">Pedro Carneiro </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              UCL, IFS and CEMMAP
+            </p>
+        </div>
+      <div class="quarto-title-meta-contents">
+      <p class="author">Neil Davies </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              UCL
+            </p>
+        </div>
+      <div class="quarto-title-meta-contents">
+      <p class="author">Sebastian Espinoza-Rojas </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              UCL
+            </p>
+        </div>
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://emmascandolo.github.io">Emma Scandolo</a> </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              UCL
+            </p>
+        </div>
+    </div>
 
-      
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 2026</p>
+      </div>
+    </div>
     
       
     </div>
     
 
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<div id="listing-papers" class="quarto-listing quarto-listing-container-custom">
-<div class="research project-list">
-  <ul class="list">
-    
-      <li class="project" data-index="0" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791201933434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="1000">
-        <div class="project-content">
-          <div class="project-info">
-            <p class="project-title">
-              <a href="../research/01_pt_bologna/index.html">
-                Less to Lose: How an earlier credential reshaped university choice and earnings
-              </a>
-            </p>
-            
-            
-              <div class="project-description">
-                <p>The Bologna Process gave students an earlier university credential, reducing what they stood to lose if a degree proved a poor match. University completion rose by 8%, students moved towards the fields most affected by the reform, and hourly wages at age 30 increased by 3%.</p>
-              </div>
-            
-            <div class="project-details-listing">
-              <ul class="project-links">
-                
-                  
-                    <li class="project-link">
-                      
-                        <a href="../../papers/BP_Portugal_Scandolo.pdf">
-                      
-                          <i class="bi bi-file-earmark-pdf"></i> Paper
-                        </a>
-                    </li>
-                  
-                    <li class="project-link">
-                      
-                        <a href="../../papers/BP_Portugal_Scandolo_Slides.pdf">
-                      
-                          <i class="bi bi-file-earmark-slides"></i> Slides
-                        </a>
-                    </li>
-                  
-                
-              </ul>
-            </div>
-          </div>
-          
-            <div class="project-plot">
-              <img src="../../img/BP_PT_fields.png" alt="Less to Lose: How an earlier credential reshaped university choice and earnings plot">
-            </div>
-          
-        </div>
-      </li>
-    
-      <li class="project" data-index="1" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791201933435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1032">
-        <div class="project-content">
-          <div class="project-info">
-            <p class="project-title">
-              <a href="../research/03_it_gbv/index.html">
-                The economic burden of violence against women and violence against children in Italy
-              </a>
-            </p>
-            
-              <div class="authors">
-                <p>
-                  with 
-                  
-                    Gabriella Conti, Francesca Marazzi, Elena Pizzo, and Flavia Bustreo
-                  
-                </p>
-              </div>
-            
-            
-              <div class="project-description">
-                <p>Using nationally representative surveys, administrative records and econometric costing, we estimate a lifetime cost of violence against women of €40,248 per victim and an annual burden of €37.5 billion, equivalent to 1.71% of Italian GDP in 2024.</p>
-              </div>
-            
-            <div class="project-details-listing">
-              <ul class="project-links">
-                
-                  
-                    <li class="project-link">
-                      
-                        <a href="../../papers/IT_violence_costing.pdf">
-                      
-                          <i class="bi bi-file-earmark-pdf"></i> Paper
-                        </a>
-                    </li>
-                  
-                
-              </ul>
-            </div>
-          </div>
-          
-            <div class="project-plot">
-              <img src="../../img/IT_violence_vaw_prevalence.jpg" alt="The economic burden of violence against women and violence against children in Italy plot">
-            </div>
-          
-        </div>
-      </li>
-    
-      <li class="project" data-index="2" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791201933435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-        <div class="project-content">
-          <div class="project-info">
-            <p class="project-title">
-              <a href="../research/05_parental_endowments/index.html">
-                Parental Responses to Child Endowments
-              </a>
-            </p>
-            
-              <div class="authors">
-                <p>
-                  with 
-                  
-                    Pedro Carneiro, Neil Davies, and Sebastian Espinoza-Rojas
-                  
-                </p>
-              </div>
-            
-            
-              <div class="project-description">
-                <p>Using the UK Millennium Cohort Study, this paper examines whether parents compensate for or reinforce differences in children's endowments by relating investments throughout childhood and adolescence to children's educational-attainment polygenic scores, conditional on their parents' scores.</p>
-              </div>
-            
-            <div class="project-details-listing">
-              <ul class="project-links">
-                
-                  
-                
-              </ul>
-            </div>
-          </div>
-          
-        </div>
-      </li>
-    
-      <li class="project" data-index="3" data-listing-date-sort="1781481600000" data-listing-file-modified-sort="1791201933435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1011">
-        <div class="project-content">
-          <div class="project-info">
-            <p class="project-title">
-              <a href="../research/04_lib_mechanisms/index.html">
-                Unpacking Successful Literacy Interventions: Evidence from Liberia
-              </a>
-            </p>
-            
-              <div class="authors">
-                <p>
-                  with 
-                  
-                    Pedro Carneiro, Nathalie Lahire, and Federico Tagliati
-                  
-                </p>
-              </div>
-            
-            
-              <div class="project-description">
-                <p>Why do some literacy programmes deliver large learning gains? EGRA Plus Liberia combined intensive teacher training, coaching and instructional materials with parental and community engagement. The full programme raised reading skills by nearly one standard deviation; 43% of the effect operates through improved teaching practices and school inputs, with a further 13% working through parental investments.</p>
-              </div>
-            
-            <div class="project-details-listing">
-              <ul class="project-links">
-                
-                  
-                    <li class="project-link">
-                      
-                        <a href="../../papers/EGRA_Liberia_2026.pdf">
-                      
-                          <i class="bi bi-file-earmark-pdf"></i> Paper
-                        </a>
-                    </li>
-                  
-                
-              </ul>
-            </div>
-          </div>
-          
-            <div class="project-plot">
-              <img src="../../img/EGRA_reading_effects.png" alt="Unpacking Successful Literacy Interventions: Evidence from Liberia plot">
-            </div>
-          
-        </div>
-      </li>
-    
-      <li class="project" data-index="4" data-listing-date-sort="1760745600000" data-listing-file-modified-sort="1791201933435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
-        <div class="project-content">
-          <div class="project-info">
-            <p class="project-title">
-              <a href="../research/02_it_bologna/index.html">
-                How do Students React to more Flexible University Systems? The Bologna Process in Italy
-              </a>
-            </p>
-            
-            
-              <div class="project-description">
-                <p>Before the Bologna Process, Italian students faced a single choice regarding higher education. Either enrol in a long university program lasting 4–5 years (single-cycle) or not attend university at all. The reform introduced greater flexibility by restructuring degrees into two cycles—a three-year bachelor’s program followed by an optional two-year master’s degree. I study the impact this has on students' educational choices and wages by the early 30s.</p>
-              </div>
-            
-            <div class="project-details-listing">
-              <ul class="project-links">
-                
-                  
-                    <li class="project-link">
-                      
-                        <a href="../../papers/BP_Italy_Scandolo.pdf">
-                      
-                          <i class="bi bi-file-earmark-pdf"></i> Paper
-                        </a>
-                    </li>
-                  
-                
-              </ul>
-            </div>
-          </div>
-          
-            <div class="project-plot">
-              <img src="../../img/BP_Italy_first_stage.png" alt="How do Students React to more Flexible University Systems? The Bologna Process in Italy plot">
-            </div>
-          
-        </div>
-      </li>
-    
-  </ul>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
+<p><em>Work in progress.</em></p>
+<p>This paper studies how parents adjust their investments in response to children’s endowments. Using the UK Millennium Cohort Study, it follows families from early childhood through adolescence and leverages variation in children’s inherited educational-attainment polygenic scores, conditional on their parents’ scores, to examine whether parental responses reinforce or compensate for differences between children.</p>
 
 
 
