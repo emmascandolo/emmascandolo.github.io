@@ -1,0 +1,22 @@
+---
+title: "Parental Responses to Child Endowments"
+date: 2026-10-05
+description: Using the UK Millennium Cohort Study, this paper examines whether parents compensate for or reinforce differences in children's endowments by relating investments throughout childhood and adolescence to children's educational-attainment polygenic scores, conditional on their parents' scores.
+author:
+  - name: Pedro Carneiro
+    affiliation: UCL, IFS and CEMMAP
+  - name: Neil Davies
+    affiliation: UCL
+  - name: Sebastian Espinoza-Rojas
+    affiliation: UCL
+  - name: Emma Scandolo
+    url: https://emmascandolo.github.io
+    affiliation: UCL
+pub-info:
+  links: []
+format: html
+---
+
+*Work in progress.*
+
+This paper studies how parents adjust their investments in response to children's endowments. Using the UK Millennium Cohort Study, it follows families from early childhood through adolescence and leverages variation in children's inherited educational-attainment polygenic scores, conditional on their parents' scores, to examine whether parental responses reinforce or compensate for differences between children.
