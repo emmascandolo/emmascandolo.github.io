@@ -1,9 +1,9 @@
 ---
-title: "Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings"
+title: "Less to Lose: How an earlier credential reshaped university choice and earnings"
 subtitle: "Evidence from Portugal's Bologna Process"
-date: 2026-09-17
-description: University is risky when students can invest several years and still leave without a qualification. Portugal's Bologna reform introduced a credible three-year credential, giving students an earlier exit and less to lose from enrolling. University completion rose by 8-9%, especially among women; students shifted toward STEM and economics; and cumulative earnings, after dipping in the twenties, rose by the early thirties.
-plot: ../../img/BP_PT_education_outcomes.png
+date: 2026-10-05
+description: The Bologna Process gave students an earlier university credential, reducing what they stood to lose if a degree proved a poor match. University completion rose by 8%, students moved towards the fields most affected by the reform, and hourly wages at age 30 increased by 3%.
+plot: ../../img/BP_PT_fields.png
 author:
   - name: Emma Scandolo
     url: https://emmascandolo.github.io
@@ -21,47 +21,44 @@ format: html
 
 ## Abstract
 
-This paper examines how students respond when university degrees become shorter, exploiting Portugal's Bologna Process implementation as a natural experiment. Using a regression discontinuity design that compares cohorts just before and after the reform, I document a 9% increase in university attainment and a 0.14 increase in years of schooling on net. Individuals reallocate across fields, from healthcare programs toward STEM and economics, with stronger effects for women. Post-reform cohorts forgo earnings at younger ages because they spend longer in education, but overtake pre-reform cohorts by their early thirties as human-capital gains more than offset the initial losses. Hourly wages increase by 1.6%, with 30% of this effect operating through the workplace channel. Overall, gains from expanding university access and reallocating students toward higher-paying fields outweigh losses from degree compression.
+University is a costly investment made under uncertainty: students pay while enrolled, learn only gradually whether a degree suits them, and receive much of the return only if they finish. This paper asks how degree length shapes educational choices and earnings. I study the Bologna Process, which changed degrees in two ways. Where a field already had a bachelor's and a master's, it shortened the bachelor's to three years. Where a field had a single long degree, it split that degree into a bachelor's and a master's. Using a regression discontinuity across birth cohorts and linked employer--employee data from Portugal, I find that the reform raised university completion by 2.1 percentage points (8%) and years of university by 7%, with larger gains for women. Students moved towards both kinds of reformed field and away from fields the reform left unchanged. Where degrees were split, more students completed both parts. At age 30, hourly wages are 3% higher, and about two-thirds of the gain reflects work in higher-paying firms. Italian data show similar gains. A model in which students learn about their match while enrolled reproduces the education responses. Splitting long degrees reduced what students stood to lose if the field proved a poor match, since they could now leave early with a bachelor's. This drew in students, some of whom went on to complete the master's.
 
-### Question and contribution
+### Research question
 
-When university degrees are shortened, do the gains from attracting more people into university and more demanding but higher-paying fields outweigh the losses from compressing training into less time? I answer this by exploiting Portugal’s implementation of the Bologna Process, which reduced most first-cycle degrees from 4–5 to 3 years. This paper provides comprehensive evidence on how shortening degree length affects educational attainment, years of schooling, fields of study, early-career earnings, and wage formation through worker quality and workplace sorting. Although this reform affected most continental European countries, there is surprisingly little evidence on its effects beyond enrolment. Field composition shifts markedly: graduates from healthcare decline by 30%, while STEM increases by 22% and economics by 10%. Effects are stronger for women, and cumulative earnings are higher by the early thirties.
+Long degrees are risky. Students bear tuition and foregone earnings from the start, but learn only gradually whether they are well matched to their field, and much of the payoff arrives only if they graduate. The Bologna Process changed that investment in two distinct ways: it shortened some existing bachelor's degrees from four years to three, and it inserted a three-year bachelor's into fields that had previously offered only a single five-year degree.
 
-### Motivation and relevance
+The first change lowered the cost of obtaining a first degree. The second created an earlier exit with a recognised qualification, reducing the downside of trying a field under uncertainty. The paper asks whether these changes drew more students into university, whether students stopped at the new bachelor's or continued to a master's, how their choice of field changed, and how those choices affected later earnings.
 
-The net effect of shorter degrees on educational attainment and earnings is theoretically ambiguous because the reform simultaneously shifts two margins that work in opposite directions. On the extensive margin, shorter degrees lower barriers to university entry: students who previously found a 4- to 5-year commitment too costly might now enroll in the more accessible 3-year program. These marginal students gain access to higher-paying jobs requiring university credentials, but must delay labour-market entry and forego earnings while studying. On the intensive margin, the reform creates an earlier exit option: students who would have completed 4-5 years under the old system might now stop after 3 years with a bachelor's degree. These students enter the labour market sooner and accumulate more work experience by any given age, but potentially sacrifice human capital from the foregone years of education. Which effect dominates—and thus whether shorter degrees increase or decrease total years of schooling and earnings on net—is an empirical question that speaks directly to the optimal design of higher education systems.
+### Setting and empirical design
 
-### Setting and identification
+Portugal implemented the Bologna structure rapidly in 2006--07. Because most students enter university at 18, cohorts turning 18 in 2007 or later made their choices under the new system. I use a regression discontinuity design that compares birth cohorts on either side of this cutoff, excluding the partly treated 2006 cohort.
 
-Portugal’s transition to the Bologna structure was remarkably sharp: all programs were restructured within two academic years, 2006 and 2007. With a standard university entry age of 18, cohorts turning 18 in 2007 or later faced the new system, generating a cohort-based discontinuity in reform exposure at the time of university enrollment decisions. I estimate a donut RD specification around the 2007 cohort cutoff (excluding the 2006 cohort) with linear trends on either side. Manipulation tests show no discontinuity in the birth-cohort density at the cutoff, and I find no evidence of strategic delay into university around the reform (share of individuals working between high school and university remains unchanged).
+Italy provides a second setting. Its reform took effect six years earlier and students typically enter university at 19. Finding similar changes at a different cutoff helps distinguish the effect of Bologna from other conditions affecting Portuguese cohorts in 2007.
 
 ### Data
 
-The analysis uses Quadros de Pessoal (QP), a universal private-sector linked employer–employee panel (2000–2023), with detailed wages, hours, occupation, education (level and field), and firm characteristics. Hourly wages are constructed from monthly compensation and deflated to 2010 euros. To control for time-specific trends, I index hourly wages by hourly wages of older, unaffected cohorts observed in the same calendar year. Additionally, I create a cumulative earnings variable\
-that captures both timing effects (delayed entry for new university students versus earlier entry for those who before completed longer degrees and now complete shorter degrees) and human capital effects (gains from more education versus potential losses from compression), providing a welfare-relevant measure that integrates all mechanisms through which the reform operates. To benchmark selection, I complement QP with nationally representative Labor Force Survey (LFS) microdata representative of the whole population.
+The main analysis uses *Quadros de Pessoal*, Portugal's linked employer--employee data for the private sector. It records workers' education, field of study, wages, occupations, job titles and employers, making it possible to follow the reform from university choices into jobs and to estimate the wage premium paid by each firm. I validate the education results using the Portuguese Labour Force Survey and the Education and Training Survey, both of which represent the wider resident population. The Italian Labour Force Survey provides the cross-country comparison.
 
 ### Main findings
 
-The reform increased university attainment by 9% and years of schooling by 0.14 on net, with stronger effects for women. Healthcare completion—the only program that became longer under Bologna—declined by 30%, while STEM rose by 22% and economics by 10%.
+**More students complete university, and total schooling rises.** University completion increases by 2.1 percentage points, or 8% of the pre-reform mean. Average years of university rise by about 0.14 years, or 7%, so the schooling added by new graduates more than offsets any reduction among students who finish earlier. The gains are larger for women.
 
-![](/img/BP_PT_education_outcomes.png)
+**Students move towards fields where Bologna changed the first credential.** Degrees increase both in fields that gained a three-year exit---mostly engineering and the sciences---and in fields where the first degree became shorter, including economics, management, the social sciences and the humanities. Students move away from fields with no comparable new exit, especially nursing in Portugal. These shifts are substantially larger for women.
 
-Hourly wages rise by 1.6% at the cutoff. A decomposition using an AKM model shows that 30% of the wage effect operates through the workplace channel. Cumulative earnings are lower at younger ages, reflecting foregone earnings while more students remain in education, but turn positive by the early thirties.
+![University degrees by what the reform did to each field. The panels show fields moving from a five-year degree to a three-plus-two structure, fields moving from a four-plus-two to a three-plus-two structure, and fields with no comparable change.](/img/BP_PT_fields.png)
 
-![](/img/BP_PT_earnings.png)
+**The new exit does not simply lead students to stop after three years.** Engineering degrees rise, as does employment in engineering occupations that require the full five-year qualification. The reform made engineering less costly to try; some of the additional students then discovered that they were well matched and continued through the master's.
 
-Patterns are similar by gender, yet women catch up through faster growth. Post-reform women are more likely to transition into higher-paying firms in the first years after graduation and exhibit steeper early-career wage growth.
+**Wages rise, largely because graduates work at better-paying firms.** At age 30, hourly wages are 3% higher for post-reform cohorts: 3.5% for women and 2.3% for men. An AKM decomposition shows that about two-thirds of the gain comes from sorting into firms with higher wage premia. IT and engineering, business services and finance account for most of the overall wage gain, linking the change in earnings to the fields and sectors towards which students moved.
 
-![](/img/BP_PT_earlycareer.png)
+**Early earnings losses are recovered by the early thirties.** Post-reform cohorts enter work later and therefore earn less cumulatively through their twenties. Higher subsequent wages close the gap around age 30 for men and 31 for women.
 
-These mobility and growth effects are driven by individuals graduating in Healthcare, STEM, and Economics, indicating that the positive impacts of degree shortening are partly composition driven: the reform reallocates students toward fields of study that offer steeper wage ladders, i.e. toward STEM and Economics and away from Healthcare.
+### External validity
 
-![](/img/BP_PT_earlycareer_byfield.png)
+Italy shows the same broad pattern: university completion rises, students move towards fields that gained an earlier credential, and the effects are larger for women. The field effects are smaller than in Portugal, but they occur around a reform introduced six years earlier.
 
-### Robustness
+![Estimated effects on field choice in Portugal and Italy, grouped by how the reform changed the degree structure.](/img/BP_PT_fields_portugal_italy.png)
 
-Education results are robust across QP and LFS samples (addressing private-sector selection), to alternative bandwidths in the RD, to indexing wages by calendar-year–gender cells, and to “donut” exclusion around the cutoff.
+### Takeaway
 
-### Implications
-
-Compressing degree length expanded access, shifted students—especially women—toward higher-return fields, and raised early-career wages mostly via improved worker quality, with a meaningful contribution from improved firm sorting. Although there are transitional earnings losses in the mid-20s, net effects turn positive by the early 30s, as measured by cumulative earnings. On balance, Portugal’s Bologna reform delivers a ''less-is-more” outcome: gains from access and reallocation across fields dominate potential losses from curricular compression.
+An earlier credential changes more than the time needed to graduate. By giving students a valuable exit if a field proves to be a poor match, it makes university less risky to try. In Portugal, that option brought more students into higher education, shifted them towards the fields most affected by the reform, and raised wages without diverting them from longer qualifications. The results show how stepping-stone credentials embedded within university can expand access while still encouraging progression to advanced degrees.

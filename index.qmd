@@ -22,4 +22,4 @@ Hi there, I'm Emma!
 
 Whenever I'm not pretending to be an elite runner, I am a PhD student at the UCL Econ Department - which mostly means running regressions instead of marathons. I also spent summer 2026 as a PhD Economist Intern with Amazon's Economist Team in London, working on EU stores. Check out my [research](/research/) or my [CV](/cv.html), and feel free to get in touch via email.
 
-My job market paper, [*Less to Lose: How shorter and more flexible degrees reshaped university choice and earnings*](/research/01_pt_bologna/), won the **2026 UniCredit Foundation Best Paper Award in Education Economics**.
+My job market paper, [*Less to Lose: How an earlier credential reshaped university choice and earnings*](/research/01_pt_bologna/), won the **2026 UniCredit Foundation Best Paper Award in Education Economics**.
