@@ -21,7 +21,7 @@ author:
 pub-info:
   links:
     - name: Paper
-      url: ../../papers/IT_violence_costing.pdf
+      url: ../../papers/IT_violence_costing_summary.pdf
       icon: bi bi-file-earmark-pdf
 format: html
 ---
