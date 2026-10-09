@@ -3,6 +3,7 @@ project:
   resources:
     - google38788d6a75dcb72f.html
     - robots.txt
+    - papers/IT_violence_costing.pdf
 
 website:
   title: "Emma Scandolo"
