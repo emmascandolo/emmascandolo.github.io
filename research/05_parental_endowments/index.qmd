@@ -1,7 +1,8 @@
 ---
 title: "Parental Responses to Child Endowments"
+order: 4
 date: 2026-10-05
-description: Using the UK Millennium Cohort Study, this paper examines whether parents compensate for or reinforce differences in children's endowments by relating investments throughout childhood and adolescence to children's educational-attainment polygenic scores, conditional on their parents' scores.
+description: Using the UK Millennium Cohort Study, we find that parents reinforce children's genetic endowments, particularly at the bottom of the distribution and in larger families. Parents respond mainly to education-related endowments, even though children's skills reflect several dimensions.
 author:
   - name: Pedro Carneiro
     affiliation: UCL, IFS and CEMMAP
@@ -19,4 +20,12 @@ format: html
 
 *Work in progress.*
 
-This paper studies how parents adjust their investments in response to children's endowments. Using the UK Millennium Cohort Study, it follows families from early childhood through adolescence and leverages variation in children's inherited educational-attainment polygenic scores, conditional on their parents' scores, to examine whether parental responses reinforce or compensate for differences between children.
+## Abstract
+
+How do parents allocate resources across their children? This is a longstanding question in social science. Parents face their children's characteristics, their own budgets, preferences and beliefs. They can reinforce differences across siblings by investing more in the most able children, or compensate lower endowments with stronger investments. Which force dominates determines how parental behaviour shapes inequality within the family.
+
+In this paper, we study how parents respond to the genetic endowments of their children. Conditional on parents' genotypes, children's genetic endowments are randomly assigned at conception. We use data from the UK Millennium Cohort Study, which follows children born in 2000--2002 from birth to age 17 and includes genetic data on children and their parents.
+
+We find that children's education polygenic score predicts their cognitive skills, behaviour, teacher assessments and parents' expectations about their future. Parental investments reinforce these endowments, and the response is concentrated at the bottom of the endowment distribution. Reinforcement occurs mainly among children with siblings, especially in larger families, and is stronger within families once we account for family fixed effects.
+
+Children's skills respond to several polygenic scores, including cognition, income and ADHD. Investments, however, respond mainly to the education score, while parental beliefs also respond to the cognition score. This suggests that parents perceive and act on only some dimensions of their children's endowments. We discuss mechanisms consistent with these patterns, including parents learning about their children by comparing siblings and tighter resource constraints in larger families.

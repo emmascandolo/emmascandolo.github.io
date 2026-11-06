@@ -5,6 +5,9 @@
       <li class="project" <%=metadataAttrs(item) %>>
         <div class="project-content">
           <div class="project-info">
+            <% if (item.jmp) { %>
+              <p class="paper-label">Job Market Paper</p>
+            <% } %>
             <p class="project-title">
               <a href="<%- item.path %>">
                 <%= item.title %>

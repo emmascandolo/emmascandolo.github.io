@@ -1,5 +1,6 @@
 ---
 title: "The economic burden of violence against women and violence against children in Italy"
+order: 3
 date: 2026-10-05
 description: Using nationally representative surveys, administrative records and econometric costing, we estimate a lifetime cost of violence against women of €40,248 per victim and an annual burden of €37.5 billion, equivalent to 1.71% of Italian GDP in 2024.
 plot: ../../img/IT_violence_vaw_prevalence.jpg

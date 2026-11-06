@@ -46,6 +46,21 @@ $navbar-fg: $main-color;
   margin-bottom: 1.5em;
 }
 
+.paper-label {
+  display: inline-block;
+  margin: 0 0 0.65rem;
+  padding: 0.3rem 0.65rem 0.22rem;
+  border-radius: 999px;
+  background-color: $main-color;
+  color: $light-font-color;
+  font-family: $font-family-sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
 // Research listing page
 .project-list {
   ul {

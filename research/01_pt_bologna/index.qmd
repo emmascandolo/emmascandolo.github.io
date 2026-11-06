@@ -1,7 +1,9 @@
 ---
 title: "Less to Lose: How shorter and more flexible degrees shape university choice and earnings"
 subtitle: "Evidence from Portugal's Bologna Process"
-date: 2026-11-01
+jmp: true
+order: 1
+date: 2026-11-06
 description: The Bologna Process shortened some first degrees and added an intermediate bachelor's to longer degrees. University completion rose by 2.4 percentage points (8%), time at university by 0.23 years, and hourly wages at ages 28 to 30 by 2.1%.
 plot: ../../img/BP_PT_fields.png
 author:
