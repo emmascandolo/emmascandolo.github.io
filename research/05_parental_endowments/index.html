@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.9">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,20 +10,14 @@
 <meta name="author" content="Neil Davies">
 <meta name="author" content="Sebastian Espinoza-Rojas">
 <meta name="author" content="Emma Scandolo">
-<meta name="description" content="Using the UK Millennium Cohort Study, this paper examines whether parents compensate for or reinforce differences in children’s endowments by relating investments throughout childhood and adolescence to children’s educational-attainment polygenic scores, conditional on their parents’ scores.">
+<meta name="description" content="Using the UK Millennium Cohort Study, we find that parents reinforce children’s genetic endowments, particularly at the bottom of the distribution and in larger families. Parents respond mainly to education-related endowments, even though children’s skills reflect several dimensions.">
 
 <title>Parental Responses to Child Endowments – Emma Scandolo</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -45,15 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-57ef8c8b9781c32ef66260e436c8ebd4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-cf8313d7a4e24251588003386686aa6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,10 +79,10 @@ ul.task-list li input[type="checkbox"] {
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"express",
+  "consent_type":"implied",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary"],
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -110,18 +103,18 @@ cookieconsent.run({
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emma Scandolo</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -150,7 +143,7 @@ cookieconsent.run({
   <div class="quarto-title-banner page-columns page-full">
         <div class="back-nav"><a href="../../research/">← Back to research</a></div>
         <div class="quarto-title column-body">
-      <h1 class="title">Parental Responses to Child Endowments</h1>
+            <h1 class="title">Parental Responses to Child Endowments</h1>
           </div>
   </div>
       
@@ -211,23 +204,35 @@ cookieconsent.run({
 
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Section">
-    
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 <p><em>Work in progress.</em></p>
-<p>This paper studies how parents adjust their investments in response to children’s endowments. Using the UK Millennium Cohort Study, it follows families from early childhood through adolescence and leverages variation in children’s inherited educational-attainment polygenic scores, conditional on their parents’ scores, to examine whether parental responses reinforce or compensate for differences between children.</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>How do parents allocate resources across their children? This is a longstanding question in social science. Parents face their children’s characteristics, their own budgets, preferences and beliefs. They can reinforce differences across siblings by investing more in the most able children, or compensate lower endowments with stronger investments. Which force dominates determines how parental behaviour shapes inequality within the family.</p>
+<p>In this paper, we study how parents respond to the genetic endowments of their children. Conditional on parents’ genotypes, children’s genetic endowments are randomly assigned at conception. We use data from the UK Millennium Cohort Study, which follows children born in 2000–2002 from birth to age 17 and includes genetic data on children and their parents.</p>
+<p>We find that children’s education polygenic score predicts their cognitive skills, behaviour, teacher assessments and parents’ expectations about their future. Parental investments reinforce these endowments, and the response is concentrated at the bottom of the endowment distribution. Reinforcement occurs mainly among children with siblings, especially in larger families, and is stronger within families once we account for family fixed effects.</p>
+<p>Children’s skills respond to several polygenic scores, including cognition, income and ADHD. Investments, however, respond mainly to the education score, while parental beliefs also respond to the cognition score. This suggests that parents perceive and act on only some dimensions of their children’s endowments. We discuss mechanisms consistent with these patterns, including parents learning about their children by comparing siblings and tighter resource constraints in larger families.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -281,14 +286,13 @@ cookieconsent.run({
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -308,8 +312,7 @@ cookieconsent.run({
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-      window.quartoDecorateExternalLinks = function (root) {
-     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -318,69 +321,8 @@ cookieconsent.run({
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-          if (!link.classList.contains('no-external-icon')) {
-          }
         }
       }
-      };
-      window.quartoDecorateExternalLinks(window.document);
-    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
-    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
-    const hideOnEscAndFocusOut = {
-      name: 'hideOnEscAndFocusOut',
-      defaultValue: true,
-      fn(instance) {
-        const dismiss = () => {
-          // A show scheduled by the trigger delay would otherwise reopen it
-          instance.clearDelayTimeouts();
-          instance.hide();
-        };
-        const onKeyDown = (event) => {
-          if (event.key !== 'Escape') {
-            return;
-          }
-          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
-          // except an open reveal.js slide menu, which Esc should close too.
-          // The menu handles keys only when its keyboard option is on.
-          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
-            window.Reveal.getConfig().menu?.keyboard !== false;
-          if (!menuHandlesEsc) {
-            event.stopPropagation();
-          }
-          if (instance.popper.contains(window.document.activeElement)) {
-            // Disabled while refocusing so the focus trigger does not reopen it
-            instance.disable();
-            instance.reference.focus();
-            instance.enable();
-          }
-          dismiss();
-        };
-        const onFocusOut = (event) => {
-          const target = event.relatedTarget;
-          if (target && !instance.reference.contains(target) &&
-              !instance.popper.contains(target)) {
-            dismiss();
-          }
-        };
-        // On the trigger too: a click trigger (code-annotations: select) has no
-        // blur handling. Attached for the instance's lifetime so leaving the
-        // trigger also cancels a show still pending on the trigger delay.
-        instance.reference.addEventListener('focusout', onFocusOut);
-        return {
-          onShow() {
-            window.document.addEventListener('keydown', onKeyDown, true);
-            instance.popper.addEventListener('focusout', onFocusOut);
-          },
-          onHide() {
-            window.document.removeEventListener('keydown', onKeyDown, true);
-            instance.popper.removeEventListener('focusout', onFocusOut);
-          },
-          onDestroy() {
-            instance.reference.removeEventListener('focusout', onFocusOut);
-          },
-        };
-      },
-    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -394,7 +336,6 @@ cookieconsent.run({
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
-        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -557,54 +498,44 @@ cookieconsent.run({
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          // Each band is positioned against its own containing block, which is
-          // not the offsetParent of the lines, so place it from client rects.
-          const placeBand = (band, firstEl, lastEl, codeBlock) => {
-            const container = band.offsetParent;
-            if (container === null) {
-              return;
-            }
-            const containerRect = container.getBoundingClientRect();
-            // Reveal.js scales slides with a transform, so convert client
-            // pixels back to the CSS pixels of the container.
-            const scale = containerRect.height / container.offsetHeight || 1;
-            const firstRect = firstEl.getBoundingClientRect();
-            const lastRect = lastEl.getBoundingClientRect();
-            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
-            const height = (lastRect.bottom - firstRect.top) / scale;
-            band.style.top = top - 2 + "px";
-            band.style.height = height + 4 + "px";
-            if (codeBlock) {
-              // Without the copy button wrapper, the containing block is wider
-              // than the code block, so span the code block explicitly.
-              const blockRect = codeBlock.getBoundingClientRect();
-              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
-              band.style.width = blockRect.width / scale + "px";
-            }
-          };
+          let top = null;
+          let height = null;
+          let parent = null;
           if (lineIds.length > 0) {
-            const el = window.document.getElementById(lineIds[0]);
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const parent = el.parentElement.parentElement;
-            // cook up a div (if necessary) and position it
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
             }
-            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
             }
-            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -702,9 +633,6 @@ cookieconsent.run({
       }
     }
   });
-  </script>
-  <script type="application/javascript">
-  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">
