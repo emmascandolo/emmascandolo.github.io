@@ -58,11 +58,13 @@ The main analysis uses *Quadros de Pessoal*, Portugal's linked employer--employe
 
 **The new exit does not simply lead students to stop after three years.** The share of the cohort earning a five-year engineering degree rises by 1.1 percentage points from a baseline of 2.9%. Employment in engineering occupations that require the full five-year qualification rises by 0.7 percentage points from a baseline of 3.1%. The reform made engineering less risky to try; some of the additional students then discovered that they were well matched and continued through the master's.
 
-![The share of the cohort completing a five-year engineering degree rises by 1.1 percentage points at the reform cutoff.](/img/BP_PT_rd_five_year_engineering.png){width=50%}
-
 **Wages rise, partly because graduates work at better-paying firms.** At ages 28 to 30, hourly wages are 2.1% higher for post-reform cohorts: 2.5% for women and 1.5% for men. An AKM decomposition shows that 46% of the gain comes from sorting into firms with higher wage premia. IT and engineering firms account for 28% of the overall wage effect and business and finance firms for 24%, linking the change in earnings to the fields and sectors towards which students moved.
 
-![Log hourly wages at ages 28 to 30 rise by 2.1% at the reform cutoff.](/img/BP_PT_rd_hourly_wage.png){width=50%}
+::: {layout-ncol=2}
+![The share of the cohort completing a five-year engineering degree rises by 1.1 percentage points at the reform cutoff.](/img/BP_PT_rd_five_year_engineering.png)
+
+![Log hourly wages at ages 28 to 30 rise by 2.1% at the reform cutoff.](/img/BP_PT_rd_hourly_wage.png)
+:::
 
 **Early earnings losses are recovered by the early thirties.** Post-reform cohorts enter work later and therefore earn less cumulatively through their twenties. The gap is largest at age 25, at about EUR 4,900, and higher subsequent wages close it around age 30.
 
