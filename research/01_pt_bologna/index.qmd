@@ -60,7 +60,7 @@ The main analysis uses *Quadros de Pessoal*, Portugal's linked employer--employe
 
 Italy shows the same broad pattern around a reform introduced six years earlier. University completion rises by 1.4 percentage points (6%) and time at university by 0.13 years (8%). Monthly wages rise by 0.8% overall and by 2.1% among women, with no change in employment. Students again move towards fields that gained an earlier credential, although the field effects are smaller than in Portugal.
 
-![Estimated effects on field choice in Portugal and Italy, grouped by how the reform changed the degree structure.](/img/BP_PT_fields_portugal_italy.png)
+![Effects of the Bologna reform in Portugal and Italy on university completion, years of university, wages, degrees in fields with a new credential, and five-year degree completion.](/img/BP_PT_fields_portugal_italy.png)
 
 ### Takeaway
 
