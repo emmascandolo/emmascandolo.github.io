@@ -5,6 +5,7 @@ project:
     - robots.txt
     - cv.pdf
     - papers/IT_violence_costing.pdf
+    - img/BP_PT_fields_research.png
 
 website:
   title: "Emma Scandolo"
