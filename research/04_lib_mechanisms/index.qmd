@@ -2,7 +2,8 @@
 title: "Unpacking Successful Literacy Interventions: Evidence from Liberia"
 order: 2
 date: 2026-06-15
-description: Why do some literacy programmes deliver large learning gains? EGRA Plus Liberia combined intensive teacher training, coaching and instructional materials with parental and community engagement. The full programme raised reading skills by nearly one standard deviation; 43% of the effect operates through improved teaching practices and school inputs, with a further 13% working through parental investments.
+description: >-
+  This paper examines experimentally the impact of a literacy intervention for primary-school students in Liberia and the mechanisms underlying its effects. The intervention combined intensive teacher training, instructional materials, and coaching with activities designed to increase parental and community engagement. Using a cluster-randomized design and longitudinal assessment data, we find large improvements in reading achievement in treatment schools, with gains increasing over time and reaching up to one standard deviation across key literacy domains. A latent-factor model of skill formation indicates that 43% of the total effect operates through improvements in schooling investments and teaching practices, while a further 13% is explained by increased parental investments. We find no significant overall effects on numeracy skills, indicating neither spillovers nor crowding out.
 plot: ../../img/EGRA_reading_effects.png
 author:
   - name: Pedro Carneiro
