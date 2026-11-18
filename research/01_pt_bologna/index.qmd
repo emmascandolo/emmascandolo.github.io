@@ -46,15 +46,27 @@ The main analysis uses *Quadros de Pessoal*, Portugal's linked employer--employe
 
 **More students complete university, and total schooling rises.** University completion increases by 2.4 percentage points, or 8% of the pre-reform mean. Average years of university rise by 0.23 years, or 11%, so the schooling added by new graduates more than offsets any reduction among students who finish earlier. The gains are larger for women.
 
+::: {layout-ncol=2}
+![University completion rises by 2.4 percentage points at the reform cutoff.](/img/BP_PT_rd_university_completion.png)
+
+![Average years of university rise by 0.23 years at the reform cutoff.](/img/BP_PT_rd_years_university.png)
+:::
+
 **Students move towards fields where Bologna changed the first credential.** Degrees in fields that gained a three-year exit---mostly engineering, architecture and computing---rise by 2.3 percentage points, or 26% of their pre-reform mean. Degrees in fields where the first degree became shorter rise by 1.6 percentage points, or 15%. Degrees in unchanged fields fall by 2.1 percentage points, or about 30%, driven by health, where nursing remained a four-year degree. These shifts are substantially larger for women.
 
 ![University degrees by what the reform did to each field. The panels show fields moving from a five-year degree to a three-plus-two structure, fields moving from a four-plus-two to a three-plus-two structure, and fields with no comparable change.](/img/BP_PT_fields.png)
 
 **The new exit does not simply lead students to stop after three years.** The share of the cohort earning a five-year engineering degree rises by 1.1 percentage points from a baseline of 2.9%. Employment in engineering occupations that require the full five-year qualification rises by 0.7 percentage points from a baseline of 3.1%. The reform made engineering less risky to try; some of the additional students then discovered that they were well matched and continued through the master's.
 
+![The share of the cohort completing a five-year engineering degree rises by 1.1 percentage points at the reform cutoff.](/img/BP_PT_rd_five_year_engineering.png){width=75%}
+
 **Wages rise, partly because graduates work at better-paying firms.** At ages 28 to 30, hourly wages are 2.1% higher for post-reform cohorts: 2.5% for women and 1.5% for men. An AKM decomposition shows that 46% of the gain comes from sorting into firms with higher wage premia. IT and engineering firms account for 28% of the overall wage effect and business and finance firms for 24%, linking the change in earnings to the fields and sectors towards which students moved.
 
+![Log hourly wages at ages 28 to 30 rise by 2.1% at the reform cutoff.](/img/BP_PT_rd_hourly_wage.png){width=75%}
+
 **Early earnings losses are recovered by the early thirties.** Post-reform cohorts enter work later and therefore earn less cumulatively through their twenties. The gap is largest at age 25, at about EUR 4,900, and higher subsequent wages close it around age 30.
+
+![Estimated effects on cumulative earnings from age 16 to each age shown. The initial earnings gap closes around age 30.](/img/BP_PT_cumulative_earnings.png)
 
 ### External validity
 
