@@ -111,12 +111,52 @@ $navbar-fg: $main-color;
       }
 
       &.project-jmp {
+        .project-content {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+          column-gap: 2em;
+          row-gap: 0.5em;
+        }
+
         .project-info {
-          flex: 1 1 50%;
+          display: contents;
+        }
+
+        .paper-label {
+          grid-column: 1 / -1;
+          grid-row: 1;
+          justify-self: start;
+        }
+
+        .project-title {
+          grid-column: 1 / -1;
+          grid-row: 2;
+        }
+
+        .project-description {
+          grid-column: 1;
+          grid-row: 3;
+        }
+
+        .project-details-listing {
+          grid-column: 1;
+          grid-row: 4;
         }
 
         .project-plot {
-          flex: 1 1 50%;
+          grid-column: 2;
+          grid-row: 3 / span 2;
+          width: 100%;
+        }
+
+        @media (max-width: 768px) {
+          .project-content {
+            display: flex;
+          }
+
+          .project-info {
+            display: block;
+          }
         }
       }
     }
