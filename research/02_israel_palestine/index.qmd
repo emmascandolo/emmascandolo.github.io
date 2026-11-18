@@ -1,0 +1,19 @@
+---
+title: "Intergroup Contact and Long-Term Attitudes in Conflict Settings: Evidence from Israel and Palestine"
+order: 5
+description: This work in progress examines intergroup contact and long-term attitudes in a conflict setting, using evidence from Israel and Palestine.
+author:
+  - name: Emma Scandolo
+    url: https://emmascandolo.github.io
+    affiliation: UCL
+  - name: Paola Giannattasio
+pub-info:
+  links: []
+format: html
+---
+
+*Work in progress.*
+
+This project examines intergroup contact and long-term attitudes in Israel and Palestine.
+
+The project received a 2025 scoping grant from the International Growth Centre's State Fragility Initiative.
