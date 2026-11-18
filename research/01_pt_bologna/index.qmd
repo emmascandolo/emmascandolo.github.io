@@ -6,7 +6,7 @@ order: 1
 date: 2026-11-06
 description: >-
   Making university degrees shorter or adding intermediate credentials can be effective tools to increase university participation. However, a short degree provides less training and an intermediate credential may induce students who would have otherwise completed the full degree to stop early. Understanding how students navigate these trade-offs is important for the design of higher-education systems. I study this using the Bologna Process as a natural experiment. Using a regression discontinuity across birth cohorts and linked employer--employee data from Portugal, I find that shorter degrees and intermediate credentials increase university attainment by 8%, average years of university by 0.23 years, and hourly wages by 2.1%. More strikingly, I find that adding an intermediate credential inside a five-year degree increases the share of people completing the full five years. A simple and intuitive dynamic model in which students learn about their match quality while studying is consistent with these results.
-plot: ../../img/BP_PT_rd_completion_wage_research.png
+plot: ../../img/BP_PT_rd_jmp_outcomes_research.png
 author:
   - name: Emma Scandolo
     url: https://emmascandolo.github.io
