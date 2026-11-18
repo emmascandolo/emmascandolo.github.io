@@ -82,7 +82,7 @@ $navbar-fg: $main-color;
         display: flex;
         gap: 2em;
         padding: 1.5em;
-        align-items: flex-stat;
+        align-items: flex-start;
         
         @media (max-width: 768px) {
           flex-direction: column;
@@ -107,6 +107,16 @@ $navbar-fg: $main-color;
           width: 100%;
           height: auto;
           border-radius: 4px;
+        }
+      }
+
+      &.project-jmp {
+        .project-info {
+          flex: 1 1 42%;
+        }
+
+        .project-plot {
+          flex: 1 1 58%;
         }
       }
     }
