@@ -4,7 +4,7 @@
     <% for (const item of items) { %>
       <li class="project<% if (item.jmp) { %> project-jmp<% } %><% if (item.plot) { %> project-has-plot<% } %>" <%=metadataAttrs(item) %>>
         <div class="project-content">
-          <div class="project-info">
+          <div class="project-header">
             <% if (item.jmp) { %>
               <p class="paper-label">Job Market Paper</p>
             <% } %>
@@ -44,6 +44,8 @@
                 </p>
               </div>
             <% } %>
+          </div>
+          <div class="project-info">
             <% if (item.description) { %>
               <div class="project-description">
                 <p><%= item.description %></p>
