@@ -129,6 +129,10 @@ $navbar-fg: $main-color;
           }
         }
       }
+
+      &.project-jmp .project-header {
+        padding-bottom: 0.4em;
+      }
     }
     
     .project-title {
