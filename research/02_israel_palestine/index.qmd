@@ -8,7 +8,10 @@ author:
     affiliation: UCL
   - name: Paola Giannattasio
 pub-info:
-  links: []
+  links:
+    - name: Slides
+      url: ../../papers/Israel_Palestine_Slides.pdf
+      icon: bi bi-file-earmark-slides
 format: html
 ---
 
