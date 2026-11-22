@@ -14,7 +14,10 @@ author:
     url: https://emmascandolo.github.io
     affiliation: UCL
 pub-info:
-  links: []
+  links:
+    - name: Slides
+      url: ../../papers/Parental_Endowments_Slides.pdf
+      icon: bi bi-file-earmark-slides
 format: html
 ---
 
