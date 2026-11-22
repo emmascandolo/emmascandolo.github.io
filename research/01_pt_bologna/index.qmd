@@ -5,7 +5,7 @@ jmp: true
 order: 1
 date: 2026-11-06
 description: >-
-  Making university degrees shorter or adding intermediate credentials can be effective tools to increase university participation. However, a short degree provides less training and an intermediate credential may induce students who would have otherwise completed the full degree to stop early. Understanding how students navigate these trade-offs is important for the design of higher-education systems. I study this using the Bologna Process as a natural experiment. Using a regression discontinuity across birth cohorts and linked employer--employee data from Portugal, I find that shorter degrees and intermediate credentials increase university attainment by 8%, average years of university by 0.23 years, and hourly wages by 2.1%. More strikingly, I find that adding an intermediate credential inside a five-year degree increases the share of people completing the full five years. A simple and intuitive dynamic model in which students learn about their match quality while studying is consistent with these results.
+  I use Portugal’s Bologna reform to study how shorter first degrees and intermediate qualifications affect university choices and earnings. University completion rose by 8%, average time at university rose by 0.23 years, and hourly wages at ages 28 to 30 rose by 2.1%. Giving engineering students the option to leave with a bachelor’s after three years also increased completion of the full five-year degree.
 plot: ../../img/BP_PT_rd_jmp_outcomes_research.png
 author:
   - name: Emma Scandolo
@@ -22,60 +22,42 @@ pub-info:
 format: html
 ---
 
-## Abstract
+## What changed
 
-Making university degrees shorter or adding intermediate credentials can be effective tools to increase university participation. However, a short degree provides less training and an intermediate credential may induce students who would have otherwise completed the full degree to stop early. Understanding how students navigate these trade-offs is important for the design of higher-education systems. I study this using the Bologna Process as a natural experiment. Using a regression discontinuity across birth cohorts and linked employer--employee data from Portugal, I find that shorter degrees and intermediate credentials increase university attainment by 8%, average years of university by 0.23 years, and hourly wages by 2.1%. More strikingly, I find that adding an intermediate credential inside a five-year degree increases the share of people completing the full five years. A simple and intuitive dynamic model in which students learn about their match quality while studying is consistent with these results.
+Portugal’s Bologna reform changed how long students had to study before earning their first qualification. In fields such as economics, it shortened the first degree from four years to three. In fields such as engineering, it added a bachelor’s after three years within an existing five-year programme. Students could leave with a qualification or stay for the master’s. The second change made it less risky to try a field before knowing whether it suited them.
 
-### Research question
+I compare cohorts that reached university age just before and after the reform, using a regression discontinuity design. The first fully exposed Portuguese cohort turned 18 in 2007. I use Portugal’s linked employer–employee records to measure degrees, jobs and wages, and household surveys to measure enrolment and dropout and check the education results.
 
-Long degrees are risky. Students bear tuition and foregone earnings from the start, but learn only gradually whether they are well matched to their field, and much of the payoff arrives only if they graduate. The Bologna Process changed that investment in two distinct ways: it shortened some existing bachelor's degrees from four years to three, and it inserted a three-year bachelor's into fields that had previously offered only a single five-year degree.
+## What I find
 
-The first change lowered the cost of obtaining a first degree. The second created an earlier exit with a recognised qualification, reducing the downside of trying a field under uncertainty. The paper asks whether these changes drew more students into university, whether students stopped at the new bachelor's or continued to a master's, how their choice of field changed, and how those choices affected later earnings.
+**More people tried university, and more graduated.** In the Education and Training Survey, enrolment rose by 6.2 percentage points and the share who had left a degree unfinished rose by 2.6 points. Completion rose by 3.6 points in that survey and by 2.4 points in the linked employer–employee records. Average time at university rose by 0.23 years, or 11%, counting zero years for people without a university degree.
 
-### Setting and empirical design
+![University enrolment and dropout by cohort, Education and Training Survey.](/img/BP_PT_enrolment_dropout.png){fig-alt="Two cohort plots show enrolment rising by 6.2 percentage points and dropout rising by 2.6 points at the reform cutoff."}
 
-Portugal implemented the Bologna structure rapidly in 2006--07. Because most students enter university at 18, cohorts turning 18 in 2007 or later made their choices under the new system. I use a regression discontinuity design that compares birth cohorts on either side of this cutoff, excluding the partly treated 2006 cohort.
+**Graduates shifted towards fields that Bologna changed.** The share of the cohort holding a degree rose by 2.3 percentage points in fields that added an intermediate qualification and by 1.6 points in fields that shortened their first degree. It fell by 2.1 points in fields that kept their previous structure, with the largest decline in nursing. These shifts carried over into jobs in engineering and health.
 
-Italy provides a second setting. Its reform took effect six years earlier and students typically enter university at 19. Finding similar changes at a different cutoff helps distinguish the effect of Bologna from other conditions affecting Portuguese cohorts in 2007.
+![University degree completion overall and by type of reform, Quadros de Pessoal.](/img/BP_PT_fields.png){fig-alt="Four cohort plots compare completion overall, in fields with a new intermediate qualification, in fields with a shorter first degree, and in fields left unchanged."}
 
-### Data
+![Estimated changes in degree fields, occupations and employment sectors.](/img/BP_PT_fields_occupations_sectors.png){fig-alt="Bar chart showing gains in engineering degree completion, engineering occupations and engineering sectors, alongside declines across the corresponding health outcomes."}
 
-The main analysis uses *Quadros de Pessoal*, Portugal's linked employer--employee data for the private sector. It records workers' education, field of study, wages, occupations, job titles and employers, making it possible to follow the reform from university choices into jobs and to estimate the wage premium paid by each firm. I validate the education results using the Portuguese Labour Force Survey and the Education and Training Survey, both of which represent the wider resident population. The Italian Labour Force Survey provides the cross-country comparison.
+**More people completed the full five years in engineering.** The share of the cohort holding a five-year engineering degree rose by 1.1 percentage points from a baseline of 2.9%. The share working in engineering occupations that require the full qualification rose by 0.7 points.
 
-### Main findings
+![Five-year engineering degrees and occupations that require the five-year qualification.](/img/BP_PT_five_year_engineering.png){fig-alt="Two cohort plots show increases in five-year engineering degrees and in employment in engineering occupations requiring that qualification."}
 
-**More students complete university, and total schooling rises.** University completion increases by 2.4 percentage points, or 8% of the pre-reform mean. Average years of university rise by 0.23 years, or 11%, so the schooling added by new graduates more than offsets any reduction among students who finish earlier. The gains are larger for women.
+**Hourly wages rose, and cumulative earnings caught up around age 30.** Hourly wages at ages 28 to 30 rose by 2.1%. Sorting into higher-paying firms accounted for 46% of the gain, and there was no clear change in employment. Post-reform cohorts had earned about €4,900 less by age 25 as more of them stayed in education. The gap closed around age 30, and by age 32 their estimated cumulative earnings were higher.
 
-::: {layout-ncol=2}
-![University completion rises by 2.4 percentage points at the reform cutoff.](/img/BP_PT_rd_university_completion.png)
+![Years of university and hourly wages by cohort, Quadros de Pessoal.](/img/BP_PT_university_years_hourly_wages.png){fig-alt="Two cohort plots show average years of university rising by 0.23 years and hourly wages rising by 2.1 percent."}
 
-![Average years of university rise by 0.23 years at the reform cutoff.](/img/BP_PT_rd_years_university.png)
-:::
+![Estimated effects on cumulative earnings from age 16 to each age shown, in 2010 euros.](/img/BP_PT_cumulative_earnings.png){fig-alt="The estimated cumulative earnings gap reaches about minus 4,900 euros at age 25 and closes around age 30."}
 
-**Students move towards fields where Bologna changed the first credential.** Degrees in fields that gained a three-year exit---mostly engineering, architecture and computing---rise by 2.3 percentage points, or 26% of their pre-reform mean. Degrees in fields where the first degree became shorter rise by 1.6 percentage points, or 15%. Degrees in unchanged fields fall by 2.1 percentage points, or about 30%, driven by health, where nursing remained a four-year degree. These shifts are substantially larger for women.
+Italy implemented Bologna earlier and shows a similar pattern. University completion rose by 6%, average time at university rose by 8%, and five-year completion also increased in fields that gained an intermediate qualification.
 
-![University degrees by what the reform did to each field. The panels show fields moving from a five-year degree to a three-plus-two structure, fields moving from a four-plus-two to a three-plus-two structure, and fields with no comparable change.](/img/BP_PT_fields.png)
+![Estimated effects of Bologna in Portugal and Italy.](/img/BP_PT_fields_portugal_italy.png){fig-alt="Point estimates and confidence intervals compare university completion, degrees in reformed fields, five-year degrees, years of university, employment and wages in Portugal and Italy."}
 
-**The new exit does not simply lead students to stop after three years.** The share of the cohort earning a five-year engineering degree rises by 1.1 percentage points from a baseline of 2.9%. Employment in engineering occupations that require the full five-year qualification rises by 0.7 percentage points from a baseline of 3.1%. The reform made engineering less risky to try; some of the additional students then discovered that they were well matched and continued through the master's.
+## Why five-year completion rose
 
-**Wages rise, partly because graduates work at better-paying firms.** At ages 28 to 30, hourly wages are 2.1% higher for post-reform cohorts: 2.5% for women and 1.5% for men. An AKM decomposition shows that 46% of the gain comes from sorting into firms with higher wage premia. IT and engineering firms account for 28% of the overall wage effect and business and finance firms for 24%, linking the change in earnings to the fields and sectors towards which students moved.
+In the model, students learn how well a programme suits them as they study. An intermediate qualification gives them a reason to try a longer programme even when they are unsure they will finish. The model estimates that new five-year graduates accounted for about 1.5 percentage points of the cohort. Around 40% of those graduates would otherwise have skipped university, and 60% would have studied another field. The model also estimates that about 0.5 percentage points of the cohort would previously have finished the five-year degree but now stopped at three years or completed a degree in another field. The net gain was about one percentage point.
 
-::: {layout-ncol=2}
-![The share of the cohort completing a five-year engineering degree rises by 1.1 percentage points at the reform cutoff.](/img/BP_PT_rd_five_year_engineering.png)
+The model suggests that an intermediate qualification can raise full-degree completion when it comes early enough to make enrolling less risky and the full degree still offers a meaningful wage gain.
 
-![Log hourly wages at ages 28 to 30 rise by 2.1% at the reform cutoff.](/img/BP_PT_rd_hourly_wage.png)
-:::
-
-**Early earnings losses are recovered by the early thirties.** Post-reform cohorts enter work later and therefore earn less cumulatively through their twenties. The gap is largest at age 25, at about EUR 4,900, and higher subsequent wages close it around age 30.
-
-![Estimated effects on cumulative earnings from age 16 to each age shown. The initial earnings gap closes around age 30.](/img/BP_PT_cumulative_earnings.png)
-
-### External validity
-
-Italy shows the same broad pattern around a reform introduced six years earlier. University completion rises by 1.4 percentage points (6%) and time at university by 0.13 years (8%). Monthly wages rise by 0.8% overall and by 2.1% among women, with no change in employment. Students again move towards fields that gained an earlier credential, although the field effects are smaller than in Portugal.
-
-![Effects of the Bologna reform in Portugal and Italy on university completion, years of university, wages, degrees in fields with a new credential, and five-year degree completion.](/img/BP_PT_fields_portugal_italy.png)
-
-### Takeaway
-
-An earlier credential changes more than the time needed to graduate. By giving students a valuable exit if a field proves to be a poor match, it makes university less risky to try. In Portugal, that option brought more students into higher education, shifted them towards the fields most affected by the reform, and raised wages without diverting them from longer qualifications. The model shows that this works when the intermediate credential arrives early enough to insure students but pays sufficiently less than the full degree to preserve the incentive to continue.
+![Model simulations varying when the intermediate qualification arrives and how much it pays relative to the five-year degree.](/img/BP_PT_credential_timing_and_pay.png){fig-alt="The first panel varies the bachelor’s wage relative to five-year pay. The second compares intermediate qualifications after two, three and four years."}
